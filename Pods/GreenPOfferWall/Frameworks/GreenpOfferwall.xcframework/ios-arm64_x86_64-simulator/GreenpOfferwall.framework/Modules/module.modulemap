@@ -1,0 +1,11 @@
+framework module GreenpOfferwall {
+  umbrella header "GreenpOfferwall.h"
+  export *
+
+  module * { export * }
+}
+
+module GreenpOfferwall.Swift {
+  header "GreenpOfferwall-Swift.h"
+  requires objc
+}
