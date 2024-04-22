@@ -60,6 +60,7 @@ extension ViewController : GreenPDelegate {
 ## Changes
 ### 3.1.0
 - 광고 UI 표시 피드형, 리스트형 전환 기능 추가
+- Privacy Manifest - required reason API 적용
 - 광고 리스트 검색기능 적용
 - 프로필 작성 기능 추가
 - 보상 표시 단위 소숫점 이하 적용 기능 추가
