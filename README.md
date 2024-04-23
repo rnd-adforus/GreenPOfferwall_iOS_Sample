@@ -1,4 +1,4 @@
-## GreenPFramework_3v_iOS
+## GreenPOfferwall_3v_iOS
 
 ## Version 3.1.0
 - Swift version 5.8
@@ -6,7 +6,7 @@
   
 ## Installation
 3.1.0 이상 부터 Cocoapods으로 지원됩니다. 다음과 같이, Podfile을 작성하시어 적용하여 주기실 바랍니다.  
-!GreenPFramework Changed PackageManager  
+!GreenPOfferwall Changed PackageManager  
 ```
 //Podfile
  pod 'GreenPOfferWall', '3.1.0'
@@ -19,7 +19,7 @@
 
 ## Initialize
 ```swift
-import GreenPFramework
+import GreenpOfferwall
 
 private lazy var greenP = GreenPSettings(delegate: self)
 
