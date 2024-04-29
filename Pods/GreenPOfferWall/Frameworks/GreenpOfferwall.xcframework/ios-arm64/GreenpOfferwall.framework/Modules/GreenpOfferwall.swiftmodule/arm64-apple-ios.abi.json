@@ -26,16 +26,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "GreenpOfferwall",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SnapKit",
         "printedName": "SnapKit",
         "declKind": "Import",
@@ -1815,13 +1805,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/OfferWallControllerTest.swift",
-      "kind": "StringLiteral",
-      "offset": 122,
-      "length": 23,
-      "value": "\"GreenpOfferwall.OfferWallControllerTest\""
-    },
-    {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 810,
@@ -1943,35 +1926,35 @@
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
-      "offset": 869,
+      "offset": 868,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
-      "offset": 878,
+      "offset": 877,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
-      "offset": 889,
+      "offset": 888,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
-      "offset": 899,
+      "offset": 898,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
-      "offset": 938,
+      "offset": 937,
       "length": 1,
       "value": "9"
     },
@@ -2482,28 +2465,28 @@
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1046,
+      "offset": 1045,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1243,
+      "offset": 1242,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1295,
+      "offset": 1294,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2682,
+      "offset": 2680,
       "length": 1,
       "value": "5"
     },

@@ -39,21 +39,21 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-GreenPOfferWallSample-GreenPOfferWallSampleUITests.xcscheme</key>
+		<key>Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Pods-GreenPOfferWallSample.xcscheme</key>
+		<key>Pods-GreenpOfferwallSample.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>Pods-GreenPOfferWallSampleTests.xcscheme</key>
+		<key>Pods-GreenpOfferwallSampleTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

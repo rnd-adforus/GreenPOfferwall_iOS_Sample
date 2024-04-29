@@ -1,17 +1,17 @@
-platform :ios, '13.0'
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.0'
+source 'https://github.com/CocoaPods/Specs.git'
 
-target 'GreenPOfferWallSample' do
-  # Comment the next line if you don't want to use dynamic frameworks
+target 'GreenpOfferwallSample' do
   use_frameworks!
-
-  # Pods for GreenPOfferWallSample
   pod 'GreenPOfferWall', '3.1.0'
-  target 'GreenPOfferWallSampleTests' do
+
+  target 'GreenpOfferwallSampleTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'GreenPOfferWallSampleUITests' do
+  target 'GreenpOfferwallSampleUITests' do
     # Pods for testing
   end
 

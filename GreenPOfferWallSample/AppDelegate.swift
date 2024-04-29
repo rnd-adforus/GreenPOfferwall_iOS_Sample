@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  GreenPOfferWallSample
+//  GreenpOfferwallSample
 //
-//  Created by adforus_m1 on 4/22/24.
+//  Created by adforus_m1 on 4/26/24.
 //
 
 import UIKit

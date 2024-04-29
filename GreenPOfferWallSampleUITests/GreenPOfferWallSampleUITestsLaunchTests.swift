@@ -1,13 +1,13 @@
 //
-//  GreenPOfferWallSampleUITestsLaunchTests.swift
-//  GreenPOfferWallSampleUITests
+//  GreenpOfferwallSampleUITestsLaunchTests.swift
+//  GreenpOfferwallSampleUITests
 //
-//  Created by adforus_m1 on 4/22/24.
+//  Created by adforus_m1 on 4/26/24.
 //
 
 import XCTest
 
-final class GreenPOfferWallSampleUITestsLaunchTests: XCTestCase {
+final class GreenpOfferwallSampleUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

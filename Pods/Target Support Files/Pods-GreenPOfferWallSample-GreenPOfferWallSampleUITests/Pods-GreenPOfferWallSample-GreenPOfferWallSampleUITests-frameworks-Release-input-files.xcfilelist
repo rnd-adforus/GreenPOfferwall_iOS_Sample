@@ -1,4 +1,4 @@
-${PODS_ROOT}/Target Support Files/Pods-GreenPOfferWallSample-GreenPOfferWallSampleUITests/Pods-GreenPOfferWallSample-GreenPOfferWallSampleUITests-frameworks.sh
+${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
 ${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

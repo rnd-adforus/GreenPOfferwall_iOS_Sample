@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB5A39153871E5C4BD4514667CE85201"
-               BuildableName = "Pods_GreenPOfferWallSample_GreenPOfferWallSampleUITests.framework"
-               BlueprintName = "Pods-GreenPOfferWallSample-GreenPOfferWallSampleUITests"
+               BlueprintIdentifier = "21D511478F9C6F1E65CF3E90313BB7FB"
+               BuildableName = "Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework"
+               BlueprintName = "Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

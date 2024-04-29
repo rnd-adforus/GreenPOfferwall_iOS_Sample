@@ -8,22 +8,6 @@
 		<data>
 		7oDy0SpcWPayFxYoGFQ4ahzkjPU=
 		</data>
-		<key>Frameworks/Flutter.framework/Flutter</key>
-		<data>
-		2A85ABuTfvG7HEMxbnLGvVhBCPg=
-		</data>
-		<key>Frameworks/Flutter.framework/Info.plist</key>
-		<data>
-		S+Kn7WK9ObhdXv0VL6WrMTgWBZg=
-		</data>
-		<key>Frameworks/Flutter.framework/_CodeSignature/CodeResources</key>
-		<data>
-		HBzMl03uBR9DpnJPy2hIdLyA9FA=
-		</data>
-		<key>Frameworks/Flutter.framework/icudtl.dat</key>
-		<data>
-		Ubat0LvE4LUgCwHeyl0Anx2vnzk=
-		</data>
 		<key>Headers/GreenpOfferwall-Swift.h</key>
 		<data>
 		oJAlPjZQOnosgAKQgNTsJ2j3bBg=
@@ -38,11 +22,11 @@
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		I73LokiFaIem1Cl7zqRBfX+VGMo=
+		Kod6LqkX8i6qh5D52eTSBgYot1o=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		putVpEAipTC7y5h0bl/YJTTvsRg=
+		uYwJVbw6YpQaAXjrOe6V/tmgc+w=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,11 +34,11 @@
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		putVpEAipTC7y5h0bl/YJTTvsRg=
+		uYwJVbw6YpQaAXjrOe6V/tmgc+w=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4Nf8pY2V2svKcIzr5E3xGA0kQFQ=
+		JMvskh5ZVtmR30dmsBUR408CP/4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,10 +64,6 @@
 		<data>
 		sE/YI207v9ZlIFKLkm8sNNUny9E=
 		</data>
-		<key>UAdNativeAdContainer.nib</key>
-		<data>
-		gTsfWIczmbGI4HnHNc8Fcc55O8U=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -92,34 +72,6 @@
 			<key>hash2</key>
 			<data>
 			l3DBRAW3CXpfIE4gFounkVZTm4cwN7RRmNhEnuTMEWw=
-			</data>
-		</dict>
-		<key>Frameworks/Flutter.framework/Flutter</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Vp2u+Nxyqz4lg7wxjM6Vm6KzHz8lEDFbanHsconDYHw=
-			</data>
-		</dict>
-		<key>Frameworks/Flutter.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1z6Wj/jvEPkJpyzSHOTJCOlg4EfZ+36/eKqh9TSqmkU=
-			</data>
-		</dict>
-		<key>Frameworks/Flutter.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bCtzif+HNgJBpkZLPys6YCW2as0vI3lIdK9Mieu47Kg=
-			</data>
-		</dict>
-		<key>Frameworks/Flutter.framework/icudtl.dat</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZepykIMSjfzhwAcmupMrkaqvXkhza1ZE3TdHjl8odaw=
 			</data>
 		</dict>
 		<key>Headers/GreenpOfferwall-Swift.h</key>
@@ -140,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A2Cw18eGCszj3ZdReQpsQfigLEjeUtW4J2CU19NfDiA=
+			ck9W9vJhtA7JGkCpJXMWCvha9y3vOygVyyeM5x5ZmbQ=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MqyJrF95EVl40XjHhwMOxLHJlP4YHqqWVk8GHG66DRc=
+			MqXckOM3Z22fTl90Pd3j0FewzHU4k1uuOeI9cGAhGmQ=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -161,14 +113,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MqyJrF95EVl40XjHhwMOxLHJlP4YHqqWVk8GHG66DRc=
+			MqXckOM3Z22fTl90Pd3j0FewzHU4k1uuOeI9cGAhGmQ=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lIPyzC9THYKX7zf/gp/0EAFCYnCs8YzSGMssSQxms0w=
+			gtKEX/GD9coCJoeQDlp12KNznCibmzZBMyk6DkCblCY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -211,13 +163,6 @@
 			<key>hash2</key>
 			<data>
 			/7tetQGDpzrqVleKLunF7JexgV40r1jZIKvUa5HOS0M=
-			</data>
-		</dict>
-		<key>UAdNativeAdContainer.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			afYD3+CopAwNoiYOZP3fpBd5ValDkNMnjZXtk0U8dNI=
 			</data>
 		</dict>
 	</dict>
