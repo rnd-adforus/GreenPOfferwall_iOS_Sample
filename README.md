@@ -69,16 +69,5 @@ extension ViewController : GreenPDelegate {
 |gp_key    |`int`    |전환 건에 대한 유니크 값 |
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
-
-## Changes
-### 3.1.0
-- 광고 UI 표시 피드형, 리스트형 전환 기능 추가
-- Privacy Manifest - required reason API 적용
-- 광고 리스트 검색기능 적용
-- 프로필 작성 기능 추가
-- 보상 표시 단위 소숫점 이하 적용 기능 추가
-- 광고 추적 거부 시 권한 요청 팝업 문구 수정용 인터페이스 추가
-- 광고 리스트 페이징 버그 및 UI 픽스
-
 ## support for other platforms
 1. [Flutter](https://github.com/rnd-adforus/GreenpSDK_iOS/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
