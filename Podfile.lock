@@ -1,28 +1,105 @@
 PODS:
+  - Ads-Global (5.8.0.8):
+    - Ads-Global/BUAdSDK (= 5.8.0.8)
+  - Ads-Global/BUAdSDK (5.8.0.8):
+    - Ads-Global/BURelyAdSDK
+    - Ads-Global/Dep_Accurate
+  - Ads-Global/BURelyAdSDK (5.8.0.8)
+  - Ads-Global/Dep_Accurate (5.8.0.8):
+    - BURelyFoundation_Global/Pangle (= 0.2.1.4)
   - Alamofire (5.9.1)
-  - GreenPOfferWall (3.1.0):
+  - AppLovinSDK (12.4.1)
+  - BURelyFoundation_Global/AFNetworking (0.2.1.4)
+  - BURelyFoundation_Global/APM (0.2.1.4)
+  - BURelyFoundation_Global/Foundation (0.2.1.4):
+    - BURelyFoundation_Global/NETWork
+  - BURelyFoundation_Global/Gecko (0.2.1.4):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/Header (0.2.1.4)
+  - BURelyFoundation_Global/NETWork (0.2.1.4):
+    - BURelyFoundation_Global/AFNetworking
+  - BURelyFoundation_Global/Pangle (0.2.1.4):
+    - BURelyFoundation_Global/AFNetworking
+    - BURelyFoundation_Global/APM
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Gecko
+    - BURelyFoundation_Global/Header
+    - BURelyFoundation_Global/NETWork
+    - BURelyFoundation_Global/SDWebImage
+    - BURelyFoundation_Global/YYModel
+    - BURelyFoundation_Global/ZFPlayer
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/SDWebImage (0.2.1.4):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/YYModel (0.2.1.4)
+  - BURelyFoundation_Global/ZFPlayer (0.2.1.4):
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/Zip (0.2.1.4):
+    - BURelyFoundation_Global/Foundation
+  - Google-Mobile-Ads-SDK (11.3.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleMobileAdsMediationAppLovin (12.4.1.0):
+    - AppLovinSDK (= 12.4.1)
+    - Google-Mobile-Ads-SDK (~> 11.0)
+  - GoogleMobileAdsMediationPangle (5.8.0.8.0):
+    - Ads-Global (= 5.8.0.8)
+    - Google-Mobile-Ads-SDK (~> 11.0)
+  - GoogleMobileAdsMediationUnity (4.10.0.0):
+    - Google-Mobile-Ads-SDK (~> 11.0)
+    - UnityAds (= 4.10.0)
+  - GoogleUserMessagingPlatform (2.4.0)
+  - GreenPOfferWallExs (3.1.0.0):
     - Alamofire (= 5.9.1)
     - Kingfisher (= 7.11.0)
     - SnapKit (= 5.7.1)
+    - UAdKit (= 1.0.0)
   - Kingfisher (7.11.0)
   - SnapKit (5.7.1)
+  - UAdKit (1.0.0):
+    - Alamofire (= 5.9.1)
+    - Google-Mobile-Ads-SDK (= 11.3.0)
+    - GoogleMobileAdsMediationAppLovin (= 12.4.1.0)
+    - GoogleMobileAdsMediationPangle (= 5.8.0.8.0)
+    - GoogleMobileAdsMediationUnity (= 4.10.0.0)
+  - UnityAds (4.10.0)
 
 DEPENDENCIES:
-  - GreenPOfferWall (= 3.1.0)
+  - GreenPOfferWallExs (= 3.1.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Ads-Global
     - Alamofire
-    - GreenPOfferWall
+    - AppLovinSDK
+    - BURelyFoundation_Global
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationAppLovin
+    - GoogleMobileAdsMediationPangle
+    - GoogleMobileAdsMediationUnity
+    - GoogleUserMessagingPlatform
+    - GreenPOfferWallExs
     - Kingfisher
     - SnapKit
+    - UAdKit
+    - UnityAds
 
 SPEC CHECKSUMS:
+  Ads-Global: b2f2943acdeedeae08aa9dce19706e1edbbd5442
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
-  GreenPOfferWall: 4178d43cb68da39436fa8fd1e35315d42c23dac4
+  AppLovinSDK: c57ad0d34625c971d2db127f8ef60570b28ff51a
+  BURelyFoundation_Global: 17ed9cd58d138feefd8c0711dd3294766adcb28e
+  Google-Mobile-Ads-SDK: 301a16c461c331ba34ff4dab40a22ab7c147af61
+  GoogleMobileAdsMediationAppLovin: bec02fea799187f82edb151c227bc0723953d15c
+  GoogleMobileAdsMediationPangle: 436633392ec6f35b288e4a6469a877d2d83bbbd1
+  GoogleMobileAdsMediationUnity: 144474b1e19b3b4a8b60cf3da8f0d9ca25d83597
+  GoogleUserMessagingPlatform: f131fa7978d2ba88d7426702b057c2cc318e6595
+  GreenPOfferWallExs: 2c7ace1be1030a39c491939309c2eab6ee423c9a
   Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  UAdKit: de2c2d5af57add55221c283d648fcddce98fa557
+  UnityAds: 5601f6397b0e02ed3ed6ee92827f5177a523aab6
 
-PODFILE CHECKSUM: 488be9e2f92d5755d689e59fe48ef968bf9e082f
+PODFILE CHECKSUM: 201537ed811dcb9c4fa97a541d8562ca5af1f036
 
 COCOAPODS: 1.15.2

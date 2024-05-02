@@ -193,6 +193,7 @@
 				594858482BDB5D6700DFE317 /* Resources */,
 				5986FDB42BE3242900B00907 /* Embed Frameworks */,
 				87839F95BB9B8B556E9C7487 /* [CP] Embed Pods Frameworks */,
+				AA85FC7532E8F66B1EF9EB0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +232,7 @@
 				594858672BDB5D6800DFE317 /* Frameworks */,
 				594858682BDB5D6800DFE317 /* Resources */,
 				AFE19F61826A34B916205656 /* [CP] Embed Pods Frameworks */,
+				E871351F0E43FA7506002974 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenpOfferwallSample" */;
+			buildConfigurationList = 594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenPOfferWallSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -374,6 +376,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AA85FC7532E8F66B1EF9EB0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AFE19F61826A34B916205656 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +430,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E871351F0E43FA7506002974 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -756,7 +792,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenpOfferwallSample" */ = {
+		594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenPOfferWallSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				594858722BDB5D6800DFE317 /* Debug */,

@@ -1,12 +1,11 @@
-## GreenPOfferwall_3v_iOS
+## GreenPOfferwall_Extends_iOS
 
-## Version 3.1.0
+## Version 3.1.0.0
 - Swift version 5.8
 - Minimum iOS version 14.0
   
 ## Installation
-3.1.0 이상 부터 Cocoapods으로 지원됩니다. 다음과 같이, Podfile을 작성하시어 적용하여 주기실 바랍니다.  
-!GreenPOfferwall Changed PackageManager  
+GreenPOfferwall Extends SDK는 Cocoapods으로 지원됩니다. 다음과 같이, Podfile을 작성하시어 적용하여 주기실 바랍니다.  
 ```
 //Podfile
 platform :ios, '14.0'
@@ -14,7 +13,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.1.0'
+  pod 'GreenPOfferWallExs', '3.1.0.0'
 end
 
 post_install do |pi|
