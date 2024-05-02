@@ -24,6 +24,11 @@ post_install do |pi|
   end
 end
 ```
+```
+//terminal
+$ pod update
+$ pod install
+```
 ## Info.plist
 광고 추적 권한<br>
 <img width="1234" alt="스크린샷 2023-11-21 오후 9 05 22" src="https://i.imgur.com/liFxkik.png">
