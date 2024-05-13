@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Kod6LqkX8i6qh5D52eTSBgYot1o=
+		BqbSgc7Zp3gIP81y44nAvEgpmtA=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		JMvskh5ZVtmR30dmsBUR408CP/4=
+		/kpXgHHvtvrHtfge0ySC2ufChKI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,7 +92,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ck9W9vJhtA7JGkCpJXMWCvha9y3vOygVyyeM5x5ZmbQ=
+			6ThHtg1SUUUBlM1EXadwXcdff0I+rwxMTJQz/rS6EAU=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -120,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gtKEX/GD9coCJoeQDlp12KNznCibmzZBMyk6DkCblCY=
+			6yg90+WnrSYbv3jspcnkxEiAaXUm+0iWX5qJwj7BuZ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37F7886FF205FEAA27A4F57D /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB321D240EDC9F89169B3EA1 /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */; };
 		5948584E2BDB5D6700DFE317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948584D2BDB5D6700DFE317 /* AppDelegate.swift */; };
 		594858502BDB5D6700DFE317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948584F2BDB5D6700DFE317 /* SceneDelegate.swift */; };
 		594858522BDB5D6700DFE317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858512BDB5D6700DFE317 /* ViewController.swift */; };
@@ -16,9 +17,8 @@
 		594858652BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858642BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift */; };
 		5948586F2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948586E2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift */; };
 		594858712BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858702BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift */; };
-		9BF12C5AFD559DF519C8493A /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486FB8302D2AC2CAC23B044 /* Pods_GreenpOfferwallSample.framework */; };
-		A2E9D40F6A1864C9723E48A1 /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB1B9B3F942615E89D2327C /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */; };
-		A3C820280C7C277D4112121C /* Pods_GreenpOfferwallSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D965235B9AFEF5426390B /* Pods_GreenpOfferwallSampleTests.framework */; };
+		D5FAAAA4DF2CAE059AD7FEE1 /* Pods_GreenpOfferwallSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037AEC09536A953C77BC089B /* Pods_GreenpOfferwallSampleTests.framework */; };
+		E83E416E63AF4A5112CDFC47 /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166F847387AEA7A0FA3B19C4 /* Pods_GreenpOfferwallSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0881E60E01CB818A035074A3 /* Pods-GreenpOfferwallSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample.release.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample.release.xcconfig"; sourceTree = "<group>"; };
-		1D61769A0555F271B1F3CAE3 /* Pods-GreenpOfferwallSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSampleTests/Pods-GreenpOfferwallSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		22229CBEB9841402F3D3183A /* Pods-GreenpOfferwallSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSampleTests.release.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSampleTests/Pods-GreenpOfferwallSampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		3AB1B9B3F942615E89D2327C /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51D4E382BF950DC26A1B57D1 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		037AEC09536A953C77BC089B /* Pods_GreenpOfferwallSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenpOfferwallSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		166F847387AEA7A0FA3B19C4 /* Pods_GreenpOfferwallSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenpOfferwallSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FB22ADB07B6CB1B432F9656 /* Pods-GreenpOfferwallSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample.release.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample.release.xcconfig"; sourceTree = "<group>"; };
 		5948584A2BDB5D6700DFE317 /* GreenpOfferwallSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenpOfferwallSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5948584D2BDB5D6700DFE317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5948584F2BDB5D6700DFE317 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,10 +68,12 @@
 		5948586A2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenpOfferwallSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5948586E2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenpOfferwallSampleUITests.swift; sourceTree = "<group>"; };
 		594858702BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenpOfferwallSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		792AB9BAFD5ED3FC5940863F /* Pods-GreenpOfferwallSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample.debug.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample.debug.xcconfig"; sourceTree = "<group>"; };
-		7D18AFCBBDE945D146CFB9F8 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8486FB8302D2AC2CAC23B044 /* Pods_GreenpOfferwallSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenpOfferwallSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A3D965235B9AFEF5426390B /* Pods_GreenpOfferwallSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenpOfferwallSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB4500A5763170D3213737E /* Pods-GreenpOfferwallSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSampleTests/Pods-GreenpOfferwallSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72411AB25EFD913712DAAA90 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E45EA36BC281C19528C17CF /* Pods-GreenpOfferwallSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSampleTests.release.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSampleTests/Pods-GreenpOfferwallSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD42076D6363270133E0F8A /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BC0B01D795980D6977D60E87 /* Pods-GreenpOfferwallSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenpOfferwallSample.debug.xcconfig"; path = "Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample.debug.xcconfig"; sourceTree = "<group>"; };
+		CB321D240EDC9F89169B3EA1 /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF12C5AFD559DF519C8493A /* Pods_GreenpOfferwallSample.framework in Frameworks */,
+				E83E416E63AF4A5112CDFC47 /* Pods_GreenpOfferwallSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3C820280C7C277D4112121C /* Pods_GreenpOfferwallSampleTests.framework in Frameworks */,
+				D5FAAAA4DF2CAE059AD7FEE1 /* Pods_GreenpOfferwallSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2E9D40F6A1864C9723E48A1 /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework in Frameworks */,
+				37F7886FF205FEAA27A4F57D /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,7 @@
 				5948586D2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests */,
 				5948584B2BDB5D6700DFE317 /* Products */,
 				DFBA8B8C85583A6582ED2116 /* Pods */,
-				8D5BA91AED28A2C762F091D7 /* Frameworks */,
+				CE0C4F4AA5ED7EDA84ABBD86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,12 +157,12 @@
 			path = GreenpOfferwallSampleUITests;
 			sourceTree = "<group>";
 		};
-		8D5BA91AED28A2C762F091D7 /* Frameworks */ = {
+		CE0C4F4AA5ED7EDA84ABBD86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8486FB8302D2AC2CAC23B044 /* Pods_GreenpOfferwallSample.framework */,
-				3AB1B9B3F942615E89D2327C /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */,
-				8A3D965235B9AFEF5426390B /* Pods_GreenpOfferwallSampleTests.framework */,
+				166F847387AEA7A0FA3B19C4 /* Pods_GreenpOfferwallSample.framework */,
+				CB321D240EDC9F89169B3EA1 /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */,
+				037AEC09536A953C77BC089B /* Pods_GreenpOfferwallSampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,12 +170,12 @@
 		DFBA8B8C85583A6582ED2116 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				792AB9BAFD5ED3FC5940863F /* Pods-GreenpOfferwallSample.debug.xcconfig */,
-				0881E60E01CB818A035074A3 /* Pods-GreenpOfferwallSample.release.xcconfig */,
-				7D18AFCBBDE945D146CFB9F8 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig */,
-				51D4E382BF950DC26A1B57D1 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig */,
-				1D61769A0555F271B1F3CAE3 /* Pods-GreenpOfferwallSampleTests.debug.xcconfig */,
-				22229CBEB9841402F3D3183A /* Pods-GreenpOfferwallSampleTests.release.xcconfig */,
+				BC0B01D795980D6977D60E87 /* Pods-GreenpOfferwallSample.debug.xcconfig */,
+				4FB22ADB07B6CB1B432F9656 /* Pods-GreenpOfferwallSample.release.xcconfig */,
+				72411AB25EFD913712DAAA90 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig */,
+				9FD42076D6363270133E0F8A /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig */,
+				6AB4500A5763170D3213737E /* Pods-GreenpOfferwallSampleTests.debug.xcconfig */,
+				7E45EA36BC281C19528C17CF /* Pods-GreenpOfferwallSampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -187,12 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594858742BDB5D6800DFE317 /* Build configuration list for PBXNativeTarget "GreenpOfferwallSample" */;
 			buildPhases = (
-				462C440B20C1292755E48CF8 /* [CP] Check Pods Manifest.lock */,
+				15D7D716E7C1963B0C4F8540 /* [CP] Check Pods Manifest.lock */,
 				594858462BDB5D6700DFE317 /* Sources */,
 				594858472BDB5D6700DFE317 /* Frameworks */,
 				594858482BDB5D6700DFE317 /* Resources */,
 				5986FDB42BE3242900B00907 /* Embed Frameworks */,
-				87839F95BB9B8B556E9C7487 /* [CP] Embed Pods Frameworks */,
+				646D591B323495BD91DA2589 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 594858772BDB5D6800DFE317 /* Build configuration list for PBXNativeTarget "GreenpOfferwallSampleTests" */;
 			buildPhases = (
-				913A80A9292C408116A8EBC6 /* [CP] Check Pods Manifest.lock */,
+				6C899BF11B5386D8432C9F44 /* [CP] Check Pods Manifest.lock */,
 				5948585C2BDB5D6800DFE317 /* Sources */,
 				5948585D2BDB5D6800DFE317 /* Frameworks */,
 				5948585E2BDB5D6800DFE317 /* Resources */,
@@ -226,11 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5948587A2BDB5D6800DFE317 /* Build configuration list for PBXNativeTarget "GreenpOfferwallSampleUITests" */;
 			buildPhases = (
-				CF43F23B709B712366357D17 /* [CP] Check Pods Manifest.lock */,
+				7ABC1BB481DA6F9D54B09901 /* [CP] Check Pods Manifest.lock */,
 				594858662BDB5D6800DFE317 /* Sources */,
 				594858672BDB5D6800DFE317 /* Frameworks */,
 				594858682BDB5D6800DFE317 /* Resources */,
-				AFE19F61826A34B916205656 /* [CP] Embed Pods Frameworks */,
+				C7B53EEC80004B47F6800E5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenpOfferwallSample" */;
+			buildConfigurationList = 594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenPOfferWallSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -313,7 +313,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		462C440B20C1292755E48CF8 /* [CP] Check Pods Manifest.lock */ = {
+		15D7D716E7C1963B0C4F8540 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,7 +335,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		87839F95BB9B8B556E9C7487 /* [CP] Embed Pods Frameworks */ = {
+		646D591B323495BD91DA2589 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,7 +352,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		913A80A9292C408116A8EBC6 /* [CP] Check Pods Manifest.lock */ = {
+		6C899BF11B5386D8432C9F44 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,24 +374,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AFE19F61826A34B916205656 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF43F23B709B712366357D17 /* [CP] Check Pods Manifest.lock */ = {
+		7ABC1BB481DA6F9D54B09901 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,6 +394,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B53EEC80004B47F6800E5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -599,7 +599,7 @@
 		};
 		594858752BDB5D6800DFE317 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 792AB9BAFD5ED3FC5940863F /* Pods-GreenpOfferwallSample.debug.xcconfig */;
+			baseConfigurationReference = BC0B01D795980D6977D60E87 /* Pods-GreenpOfferwallSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -637,7 +637,7 @@
 		};
 		594858762BDB5D6800DFE317 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0881E60E01CB818A035074A3 /* Pods-GreenpOfferwallSample.release.xcconfig */;
+			baseConfigurationReference = 4FB22ADB07B6CB1B432F9656 /* Pods-GreenpOfferwallSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -675,7 +675,7 @@
 		};
 		594858782BDB5D6800DFE317 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D61769A0555F271B1F3CAE3 /* Pods-GreenpOfferwallSampleTests.debug.xcconfig */;
+			baseConfigurationReference = 6AB4500A5763170D3213737E /* Pods-GreenpOfferwallSampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -696,7 +696,7 @@
 		};
 		594858792BDB5D6800DFE317 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22229CBEB9841402F3D3183A /* Pods-GreenpOfferwallSampleTests.release.xcconfig */;
+			baseConfigurationReference = 7E45EA36BC281C19528C17CF /* Pods-GreenpOfferwallSampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -717,7 +717,7 @@
 		};
 		5948587B2BDB5D6800DFE317 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D18AFCBBDE945D146CFB9F8 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig */;
+			baseConfigurationReference = 72411AB25EFD913712DAAA90 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -736,7 +736,7 @@
 		};
 		5948587C2BDB5D6800DFE317 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51D4E382BF950DC26A1B57D1 /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig */;
+			baseConfigurationReference = 9FD42076D6363270133E0F8A /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -756,7 +756,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenpOfferwallSample" */ = {
+		594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenPOfferWallSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				594858722BDB5D6800DFE317 /* Debug */,

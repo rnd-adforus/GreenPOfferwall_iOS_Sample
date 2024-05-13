@@ -1,6 +1,6 @@
 ## GreenPOfferwall_3v_iOS
 
-## Version 3.1.0
+## Version 3.1.1
 - Swift version 5.8
 - Minimum iOS version 14.0
   
@@ -14,7 +14,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.1.0'
+  pod 'GreenPOfferWall', '3.1.1'
 end
 
 post_install do |pi|
