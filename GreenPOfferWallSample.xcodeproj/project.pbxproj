@@ -267,7 +267,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenPOfferWallSample" */;
+			buildConfigurationList = 594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenpOfferwallSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -697,6 +697,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = adforus.GreenpOfferwallSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -792,7 +793,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenPOfferWallSample" */ = {
+		594858452BDB5D6700DFE317 /* Build configuration list for PBXProject "GreenpOfferwallSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				594858722BDB5D6800DFE317 /* Debug */,

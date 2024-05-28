@@ -1,6 +1,6 @@
 ## GreenPOfferwall_Extends_iOS
 
-## Version 3.1.1.0
+## Version 3.1.1.1
 - Swift version 5.8
 - Minimum iOS version 14.0
   
@@ -13,7 +13,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.1.1.0'
+  pod 'GreenPOfferWallExs', '3.1.1.1'
 end
 
 post_install do |pi|
@@ -73,6 +73,10 @@ extension ViewController : GreenPDelegate {
 |app_uid   |`string` |매체사에 보낸 유저 구분 값 (UserID) |
 |gp_key    |`int`    |전환 건에 대한 유니크 값 |
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
+
+## Changes
+### 3.1.1.1
+- Privacy Manifest - required reason API 수정
 
 ## support for other platforms
 1. [Flutter](https://github.com/rnd-adforus/GreenpSDK_iOS/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
