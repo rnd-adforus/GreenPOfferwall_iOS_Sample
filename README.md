@@ -72,6 +72,9 @@ extension ViewController : GreenPDelegate {
 
 
 ## Changes
+### 3.1.1
+- 메뉴 버튼 UI 수정 및 버그 픽스
+
 ### 3.1.0
 - 광고 UI 표시 피드형, 리스트형 전환 기능 추가
 - Privacy Manifest - required reason API 적용
@@ -83,3 +86,4 @@ extension ViewController : GreenPDelegate {
 
 ## support for other platforms
 1. [Flutter](https://github.com/rnd-adforus/GreenpSDK_iOS/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
+2. [ReactNative](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/ReactNative-GreenpOfferwall-SDK-%EA%B0%80%EC%9D%B4%EB%93%9C)
