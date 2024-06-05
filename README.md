@@ -1,6 +1,6 @@
 ## GreenPOfferwall_Extends_iOS
 
-## Version 3.1.1.1
+## Version 3.1.2.0
 - Swift version 5.8
 - Minimum iOS version 14.0
   
@@ -13,7 +13,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.1.1.1'
+  pod 'GreenPOfferWallExs', '3.1.2.0'
 end
 
 post_install do |pi|
@@ -75,6 +75,9 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 3.1.2.0
+- Distribute Error - Invalid Binary Fix
+
 ### 3.1.1.1
 - Privacy Manifest - required reason API 수정
 
