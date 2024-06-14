@@ -31,9 +31,228 @@ $ pod install
 ```
 ## Info.plist
 광고 추적 권한<br>
+광고 추적 권한 허용 여부에 사용 되는 문구 설정 및 오퍼월 광고 지원을 위한 api 통신 설정이 다음과 같이 필요합니다. 다음의 설정이 올바르지 않을 시 오퍼월 리워드 지급이 원활하지 않을 수 있습니다.
+<b>[광고 추적 권한에 따른 문구 설정]</b><br>
+
 <img width="1234" alt="스크린샷 2023-11-21 오후 9 05 22" src="https://i.imgur.com/liFxkik.png">
 <br>http 통신 예외처리<br>
 <img width="803" alt="스크린샷 2023-11-21 오후 9 08 45" src="https://i.imgur.com/l1k18ai.png">
+
+GADApplicationIdentifier키 값에  Application Id를 입력하세요.  (앱별 Application ID를 Adforus 운영팀에 문의해주세요.)
+<img width="1234" alt="AppID" src="https://i.imgur.com/kmNgWv6.png">
+또는
+```xml
+<key>GADApplicationIdentifier</key>  
+<string>Your Application ID</string>  
+```
+<br>
+광고 최적화를 위해 광고 추적 예외 설정에 필요한 값을 추가합니다. 아래 스니펫을 Info.plist에 포함하여 주세요.
+<details><br>
+<summary><b>작성예시</summary>
+
+```xml
+<key>SKAdNetworkItems</key>
+<array>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>cstr6suwn9.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>4fzdc2evr5.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>4pfyvq9l8r.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>2fnua5tdw4.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>ydx93a7ass.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>5a6flpkh64.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>p78axxw29g.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>v72qych5uu.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>ludvb6z3bs.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>cp8zw746q7.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>3sh42y64q3.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>c6k4g5qg8m.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>s39g8k73mm.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>3qy4746246.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>f38h382jlk.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>hs6bdukanm.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+	<string>v4nxqhlyqp.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>wzmmz9fp6w.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>yclnxrl5pm.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>t38b2kh725.skadnetwork</string>
+  </dict>
+  <dict>
+	<key>SKAdNetworkIdentifier</key>
+	<string>7ug5zh24hu.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>gta9lk7p23.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>vutu7akeur.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>y5ghdn5j9k.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>n6fk4nfna4.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>v9wttpbfk9.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>n38lu8286q.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>47vhws6wlr.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>kbd757ywx3.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>9t245vhmpl.skadnetwork</string>
+  </dict>
+  <dict>
+	<key>SKAdNetworkIdentifier</key>
+	<string>eh6m2bh4zr.skadnetwork</string>
+  </dict>
+  <dict>
+	<key>SKAdNetworkIdentifier</key>
+	<string>a2p9lx4jpn.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>22mmun2rn5.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>4468km3ulz.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>2u9pt9hc89.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>8s468mfl3y.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>klf5c3l5u5.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>ppxm28t8ap.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>ecpz2srf59.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>uw77j35x4d.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>pwa73g5rt2.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+	 <string>mlmmfzh3r3.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>578prtvx9j.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>4dzt52r2t5.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>e5fvkxwrpn.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>8c4e2ghe7u.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>zq492l623r.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>3rd42ekr43.skadnetwork</string>
+  </dict>
+  <dict>
+    <key>SKAdNetworkIdentifier</key>
+    <string>3qcr597p9d.skadnetwork</string>
+  </dict>
+</array>
+```
+<br>
+</details>
 
 ## Initialize
 ```swift
@@ -58,7 +277,7 @@ extension ViewController : GreenPDelegate {
 ```
 ※ 유저 구분값 생성 규칙
 1. 각각의 유저별 고유한 값을 이용해야 합니다.
-2. 개인정보 및 IDFA는 사용할 수 없습니다. ( 암호화 후 사용 가능 )
+2. 개인정보 및 IDFA는 사용할 수 없습니다. ( 암호화 후 사용 가능 )
 3. 한글, 특수문자, 공백은 반드시 URL 인코딩 후 사용하셔야 합니다.
 
 ## Callback Parameter  
