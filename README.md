@@ -301,5 +301,5 @@ extension ViewController : GreenPDelegate {
 - Privacy Manifest - required reason API 수정
 
 ## support for other platforms
-1. [Flutter](https://github.com/rnd-adforus/GreenpSDK_iOS/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
+1. [Flutter](https://github.com/rnd-adforus/GreenpSDK_iOS/wiki/Flutter-GreenpOfferwall-forExtends-SDK-for-%08iOS)
 2. [ReactNative](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/ReactNative-GreenpOfferwall-forExtends-SDK-%EA%B0%80%EC%9D%B4%EB%93%9C)
