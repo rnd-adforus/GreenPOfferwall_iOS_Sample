@@ -85,5 +85,5 @@ extension ViewController : GreenPDelegate {
 - 광고 리스트 페이징 버그 및 UI 픽스
 
 ## support for other platforms
-1. [Flutter](https://github.com/rnd-adforus/GreenpSDK_iOS/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
+1. [Flutter](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
 2. [ReactNative](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/ReactNative-GreenpOfferwall-SDK-%EA%B0%80%EC%9D%B4%EB%93%9C)
