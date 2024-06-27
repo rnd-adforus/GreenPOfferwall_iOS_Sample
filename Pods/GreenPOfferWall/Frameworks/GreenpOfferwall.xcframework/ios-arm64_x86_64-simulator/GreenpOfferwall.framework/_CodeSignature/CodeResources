@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7djGeJiy7+aXATuk5nDwKOmODgw=
+		YVSVpcsJ/JUW87TUq88krIIePGQ=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		V3yNjHrBJAp6MZ4P4NEtLJvTaFU=
+		aOgEJe9vUP6OocIMr9APsGgwVaA=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7djGeJiy7+aXATuk5nDwKOmODgw=
+		YVSVpcsJ/JUW87TUq88krIIePGQ=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/Il/DFLIlHiPCVI+IUsQMgVX7cM=
+		ggQleCfQhpqEjjbe8TzAhzbp+cs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
-		sE/YI207v9ZlIFKLkm8sNNUny9E=
+		19akZ2ueyt2S/B+6q0AwA0hYgIg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jbkzBq9Tm11fNutqusK9kGNoI0Un6BIfYbjsQ3Tb1rM=
+			5NwOly3BNxWlN+8bdLWebwJjLy39WfL0SX046RACYBI=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -140,14 +140,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h9f9CuwyIDL3nazUWcUOQg5c8b5RumYes4G6xhC3fgk=
+			rguH+jKBoc47hNdQWZpMNj/iyaIegSBmksrlRGVXidY=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jbkzBq9Tm11fNutqusK9kGNoI0Un6BIfYbjsQ3Tb1rM=
+			5NwOly3BNxWlN+8bdLWebwJjLy39WfL0SX046RACYBI=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -175,7 +175,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VpwofH2vLGnHrATZXIdhC/egcEpPfsuySkQm6JqIbqE=
+			mYD1apyko+oPf+nYlLutveg3ezeI1N8rFuCtBCbUEnk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -217,7 +217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/7tetQGDpzrqVleKLunF7JexgV40r1jZIKvUa5HOS0M=
+			tXXhRoIa+wpeOxcaHQlSG7joUkkk8SRcTQlbjuGtOoM=
 			</data>
 		</dict>
 	</dict>

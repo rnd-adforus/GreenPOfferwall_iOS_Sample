@@ -17,8 +17,9 @@
 		594858652BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858642BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift */; };
 		5948586F2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948586E2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift */; };
 		594858712BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858702BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift */; };
+		59DC05DF2C2CF68200391AF1 /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166F847387AEA7A0FA3B19C4 /* Pods_GreenpOfferwallSample.framework */; };
+		59DC05E02C2CF68200391AF1 /* Pods_GreenpOfferwallSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 166F847387AEA7A0FA3B19C4 /* Pods_GreenpOfferwallSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D5FAAAA4DF2CAE059AD7FEE1 /* Pods_GreenpOfferwallSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037AEC09536A953C77BC089B /* Pods_GreenpOfferwallSampleTests.framework */; };
-		E83E416E63AF4A5112CDFC47 /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 166F847387AEA7A0FA3B19C4 /* Pods_GreenpOfferwallSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				59DC05E02C2CF68200391AF1 /* Pods_GreenpOfferwallSample.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E83E416E63AF4A5112CDFC47 /* Pods_GreenpOfferwallSample.framework in Frameworks */,
+				59DC05DF2C2CF68200391AF1 /* Pods_GreenpOfferwallSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +614,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GreenpOfferwallSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GreenpOriginal;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -650,6 +653,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GreenpOfferwallSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GreenpOriginal;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -661,6 +665,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"GreenpOfferwall\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = adforus.GreenpOfferwallSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

@@ -1,6 +1,6 @@
 ## GreenPOfferwall_3v_iOS
 
-## Version 3.1.1
+## Version 3.2.0
 - Swift version 5.8
 - Minimum iOS version 14.0
   
@@ -14,7 +14,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.1.1'
+  pod 'GreenPOfferWall', '3.2.0'
 end
 
 post_install do |pi|
@@ -72,6 +72,14 @@ extension ViewController : GreenPDelegate {
 
 
 ## Changes
+### 3.2.0
+- 광고 검색 기능 그린피 어드민으로 ON/OFF 되도록 수정
+- 클릭 체류형 광고타입 적용
+- 대메뉴, 소메뉴, 프로필 입력 UI 그린피 어드민으로 ON/OFF 되도록 수정
+- 광고 표시 유형 리스트/피드형 초기 설정이 그린피 어드민 설정을 따르도록 수정
+- 마이페이지의 참여 광고 목록 정렬 순서 수정
+- 대매뉴 화면 전환 버그 픽스
+
 ### 3.1.1
 - 메뉴 버튼 UI 수정 및 버그 픽스
 

@@ -425,6 +425,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GreenpOfferwall"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1798,3346 +1805,3675 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/SplashViewModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/SplashViewModel.swift",
       "kind": "Array",
       "offset": 289,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 810,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 836,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
       "kind": "StringLiteral",
       "offset": 137,
       "length": 23,
       "value": "\"GreenpOfferwall.OfferWallViewController\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/APIResult.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/APIResult.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 5,
       "value": "\"rst\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/APIResult.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/APIResult.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/APIResult.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/APIResult.swift",
       "kind": "StringLiteral",
       "offset": 261,
       "length": 5,
       "value": "\"rst\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/APIResult.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/APIResult.swift",
       "kind": "StringLiteral",
       "offset": 290,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 512,
+      "offset": 513,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 616,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 704,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 801,
-      "length": 79,
-      "value": "\"뉴스기사를 스크롤하시면 시청시간 카운트가 시작됩니다.\""
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1113,
-      "length": 4,
-      "value": "-1.0"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 1194,
-      "length": 4,
-      "value": "30.0"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1486,
+      "offset": 714,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 949,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 79,
+      "value": "\"뉴스기사를 스크롤하시면 시청시간 카운트가 시작됩니다.\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1413,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1486,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 473,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "StringLiteral",
       "offset": 582,
       "length": 9,
       "value": "\"#전체\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 660,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 868,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 877,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 888,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 898,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "IntegerLiteral",
       "offset": 937,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTagButtonView.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 18,
       "value": "\"GreenpOfferwall.RadioTagButtonView\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/SplashViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/SplashViewController.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 20,
       "value": "\"GreenpOfferwall.SplashViewController\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 32,
       "value": "\"com.adforus.sdk\/greenp_channel\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "BooleanLiteral",
       "offset": 541,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 1200,
       "length": 15,
       "value": "\"initOfferWall\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 2206,
       "length": 9,
       "value": "\"appCode\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 2307,
       "length": 8,
       "value": "\"userId\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 2331,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 2440,
       "length": 17,
       "value": "\"invalid appCode\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 2549,
       "length": 24,
       "value": "\"startOfferWallActivity\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 2794,
       "length": 23,
       "value": "\"greenp offerwall show\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
       "kind": "StringLiteral",
       "offset": 2966,
       "length": 20,
       "value": "\"invalid methodCall\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsViewController.swift",
       "kind": "Array",
       "offset": 339,
       "length": 40,
       "value": "[\"광고적립 문의\", \"기타 문의\"]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsViewController.swift",
       "kind": "Array",
       "offset": 444,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsViewController.swift",
       "kind": "Array",
       "offset": 517,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsViewController.swift",
       "kind": "StringLiteral",
       "offset": 111,
       "length": 16,
       "value": "\"GreenpOfferwall.CsViewController\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Extensions\/UIViewController+Extensions.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Extensions\/UIViewController+Extensions.swift",
       "kind": "StringLiteral",
       "offset": 197,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "Array",
       "offset": 309,
       "length": 20,
       "value": "[\"남성\", \"여성\"]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "Array",
       "offset": 373,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 411,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "Array",
       "offset": 447,
       "length": 18,
       "value": "[\"male\", \"female\"]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "StringLiteral",
       "offset": 505,
       "length": 10,
       "value": "\"-선택-\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 759,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 783,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 953,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "StringLiteral",
       "offset": 1062,
       "length": 24,
       "value": "\"프로필 입력하기\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 1220,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "StringLiteral",
       "offset": 1329,
       "length": 62,
       "value": "\"프로필 입력하시고 더 많은 혜택을 누리세요.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 1527,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "StringLiteral",
       "offset": 1636,
       "length": 34,
       "value": "\"출생년도를 선택하세요.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 1928,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2001,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2010,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2022,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2032,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2161,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "FloatLiteral",
       "offset": 2198,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2405,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2447,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "BooleanLiteral",
       "offset": 2575,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 2722,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "StringLiteral",
       "offset": 2795,
       "length": 28,
       "value": "\"성별을 선택하세요.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 3099,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 3157,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "StringLiteral",
       "offset": 3278,
       "length": 11,
       "value": "\"나가기\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 3454,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "IntegerLiteral",
       "offset": 3512,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileDialogView.swift",
       "kind": "StringLiteral",
       "offset": 3668,
       "length": 14,
       "value": "\"입력하기\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "Array",
-      "offset": 3281,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3376,
+      "length": 3,
+      "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "Array",
-      "offset": 3461,
-      "length": 5,
-      "value": "[[]]"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/ParticipateViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 232,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/ParticipateViewModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 613,
+      "offset": 3382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3389,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/BaseViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3450,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3456,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3463,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3513,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3519,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3526,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3582,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3588,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3595,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3645,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3651,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3658,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "Array",
+      "offset": 3725,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "Array",
+      "offset": 3905,
+      "length": 5,
+      "value": "[[]]"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4397,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4403,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4410,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4478,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4484,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4491,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4548,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4554,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4624,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4630,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4637,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4694,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4700,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4707,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/ParticipateViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 250,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/ParticipateViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 631,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/BaseViewController.swift",
       "kind": "StringLiteral",
       "offset": 346,
       "length": 7,
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/StandardSize.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/StandardSize.swift",
       "kind": "IntegerLiteral",
       "offset": 176,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/StandardSize.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/StandardSize.swift",
       "kind": "IntegerLiteral",
       "offset": 213,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/StandardSize.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/StandardSize.swift",
       "kind": "FloatLiteral",
       "offset": 245,
       "length": 3,
       "value": "2.5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 15,
       "value": "\"api.greenp.kr\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "IntegerLiteral",
       "offset": 161,
       "length": 2,
       "value": "50"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 39,
       "value": "\"http:\/\/api.greenp.kr\/sdk\/privacy.html\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 47,
       "value": "\"http:\/\/api.greenp.kr\/sdk\/sdk_qna_webview.html\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 337,
       "length": 50,
       "value": "\"http:\/\/api.greenp.kr\/sdk\/sdk_mypage_webview.html\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 51,
       "value": "\"서버와의 연결이 원활하지 않습니다.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 502,
       "length": 38,
       "value": "\"광고 URL이 잘못되었습니다.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Constants.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 727,
       "length": 7,
-      "value": "\"3.1.1\""
+      "value": "\"3.2.0\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 402,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/TimerWebViewModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 436,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListModel.swift",
       "kind": "StringLiteral",
       "offset": 154,
       "length": 5,
       "value": "\"All\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListModel.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListModel.swift",
       "kind": "IntegerLiteral",
       "offset": 389,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListModel.swift",
       "kind": "BooleanLiteral",
       "offset": 513,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListModel.swift",
       "kind": "IntegerLiteral",
       "offset": 551,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListModel.swift",
       "kind": "IntegerLiteral",
       "offset": 581,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
+      "kind": "StringLiteral",
+      "offset": 1449,
+      "length": 8,
+      "value": "\"기사\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1045,
+      "offset": 1679,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1242,
+      "offset": 1876,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1294,
+      "offset": 1928,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/CircleProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2680,
+      "offset": 3314,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendUserInfoParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendUserInfoParam.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 5,
       "value": "\"sex\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendUserInfoParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendUserInfoParam.swift",
       "kind": "StringLiteral",
       "offset": 266,
       "length": 5,
       "value": "\"sex\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendUserInfoParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendUserInfoParam.swift",
       "kind": "StringLiteral",
       "offset": 102,
       "length": 17,
       "value": "\"GreenpOfferwall.SendUserInfoParam\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3372,
+      "offset": 3659,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3445,
+      "offset": 3732,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3690,
+      "offset": 3977,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3868,
+      "offset": 4097,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListTableViewHeaderCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3897,
+      "offset": 4126,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/GreenPSettings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/GreenPSettings.swift",
       "kind": "StringLiteral",
       "offset": 194,
       "length": 22,
       "value": "\"OfferWall Message : \""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "BooleanLiteral",
       "offset": 243,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 328,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "BooleanLiteral",
       "offset": 463,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 548,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "BooleanLiteral",
       "offset": 575,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 712,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 878,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1113,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1227,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "FloatLiteral",
       "offset": 1267,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1301,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1523,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1578,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "BooleanLiteral",
       "offset": 1767,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "StringLiteral",
       "offset": 2110,
       "length": 13,
       "value": "\"greenp_logo\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/AdListCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
       "kind": "StringLiteral",
       "offset": 2148,
       "length": 25,
       "value": "\"adforus.GreenpOfferwall\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
       "kind": "StringLiteral",
       "offset": 1834,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
       "kind": "StringLiteral",
       "offset": 1868,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
       "kind": "StringLiteral",
       "offset": 1834,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateListForCs.swift",
       "kind": "StringLiteral",
       "offset": 1868,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 583,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 590,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 703,
       "length": 3,
       "value": "0.6"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 742,
       "length": 2,
       "value": "-3"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 777,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 979,
       "length": 7,
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 1213,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 1239,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 1470,
       "length": 14,
       "value": "\"phone.circle\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 1711,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 1737,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 1961,
       "length": 20,
       "value": "\"person.crop.circle\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 2208,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 2234,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 2468,
       "length": 17,
       "value": "\"magnifyingglass\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 2712,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 2738,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 2977,
       "length": 17,
       "value": "\"magnifyingglass\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 3221,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 3247,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 3780,
       "length": 2,
       "value": "-2"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 3792,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "FloatLiteral",
       "offset": 3832,
       "length": 3,
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 3879,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 3905,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 4134,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 4184,
       "length": 22,
       "value": "\"캠페인 명 검색\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 4609,
       "length": 16,
       "value": "\"arrow.backward\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 4852,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 4878,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 5012,
       "length": 13,
       "value": "\"greenp_logo\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "StringLiteral",
       "offset": 5050,
       "length": 25,
       "value": "\"adforus.GreenpOfferwall\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "IntegerLiteral",
       "offset": 5320,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/HeaderView.swift",
       "kind": "BooleanLiteral",
       "offset": 5574,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "StringLiteral",
       "offset": 223,
       "length": 14,
       "value": "\"문의내역\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 8,
       "value": "\"보기\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "IntegerLiteral",
       "offset": 503,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "StringLiteral",
       "offset": 669,
       "length": 14,
       "value": "\"chevron.down\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "BooleanLiteral",
       "offset": 797,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "StringLiteral",
       "offset": 957,
       "length": 14,
       "value": "\"chevron.down\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "StringLiteral",
       "offset": 1071,
       "length": 12,
       "value": "\"chevron.up\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageInfoBottomView.swift",
       "kind": "BooleanLiteral",
       "offset": 864,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 9,
       "value": "\"appcode\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 9,
       "value": "\"app_uid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 10,
       "value": "\"deviceid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 9,
       "value": "\"appcode\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 9,
       "value": "\"app_uid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 10,
       "value": "\"deviceid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 1035,
       "length": 7,
       "value": "\"apple\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 1165,
       "length": 9,
       "value": "\"sdk_ver\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 1165,
       "length": 9,
       "value": "\"sdk_ver\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 1715,
       "length": 9,
       "value": "\"appcode\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
       "offset": 1715,
       "length": 9,
       "value": "\"appcode\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 2573,
       "length": 11,
       "value": "\"list_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2466,
+      "offset": 2638,
       "length": 7,
       "value": "\"color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
+      "offset": 2679,
       "length": 16,
       "value": "\"small_bg_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2553,
+      "offset": 2725,
       "length": 12,
       "value": "\"font_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2598,
+      "offset": 2770,
       "length": 18,
       "value": "\"small_font_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 2817,
       "length": 11,
       "value": "\"btn_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2857,
+      "length": 9,
+      "value": "\"imp_chk\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 2896,
       "length": 11,
       "value": "\"icon_view\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2724,
+      "offset": 2935,
       "length": 10,
       "value": "\"icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 2973,
       "length": 12,
       "value": "\"cate_order\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2401,
+      "offset": 3018,
+      "length": 12,
+      "value": "\"search_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3069,
+      "length": 9,
+      "value": "\"top_msg\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3109,
+      "length": 10,
+      "value": "\"cate_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3153,
+      "length": 9,
+      "value": "\"ssm_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 2573,
       "length": 11,
       "value": "\"list_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2466,
+      "offset": 2638,
       "length": 7,
       "value": "\"color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
+      "offset": 2679,
       "length": 16,
       "value": "\"small_bg_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2553,
+      "offset": 2725,
       "length": 12,
       "value": "\"font_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2598,
+      "offset": 2770,
       "length": 18,
       "value": "\"small_font_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2645,
+      "offset": 2817,
       "length": 11,
       "value": "\"btn_color\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2685,
+      "offset": 2857,
+      "length": 9,
+      "value": "\"imp_chk\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 2896,
       "length": 11,
       "value": "\"icon_view\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2724,
+      "offset": 2935,
       "length": 10,
       "value": "\"icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2762,
+      "offset": 2973,
       "length": 12,
       "value": "\"cate_order\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2862,
+      "offset": 3018,
+      "length": 12,
+      "value": "\"search_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3069,
+      "length": 9,
+      "value": "\"top_msg\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3109,
+      "length": 10,
+      "value": "\"cate_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3153,
+      "length": 9,
+      "value": "\"ssm_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3250,
       "length": 3,
       "value": "\"L\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2890,
+      "offset": 3278,
       "length": 3,
       "value": "\"F\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2862,
+      "offset": 3250,
       "length": 3,
       "value": "\"L\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2890,
+      "offset": 3278,
       "length": 3,
       "value": "\"F\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3564,
       "length": 13,
       "value": "\"filter_list\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Settings.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3564,
       "length": 13,
       "value": "\"filter_list\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Utils\/NetworkManager.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Utils\/NetworkManager.swift",
       "kind": "IntegerLiteral",
       "offset": 2984,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 1970,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2043,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2234,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2307,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2552,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 2735,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedListTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 2764,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTabButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTabButtonView.swift",
       "kind": "Dictionary",
       "offset": 348,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/RadioTabButtonView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/RadioTabButtonView.swift",
       "kind": "BooleanLiteral",
       "offset": 422,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "Array",
       "offset": 278,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 312,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 850,
       "length": 2,
       "value": "70"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "StringLiteral",
       "offset": 935,
       "length": 6,
       "value": "\"cell\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "StringLiteral",
       "offset": 1037,
       "length": 8,
       "value": "\"header\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1095,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1104,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1115,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1125,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1284,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListViewController.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 24,
       "value": "\"GreenpOfferwall.MypageListViewController\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/Common\/FeedInfoView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/Common\/FeedInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 598,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/Common\/FeedInfoView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/Common\/FeedInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 743,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/Common\/FeedInfoView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/Common\/FeedInfoView.swift",
       "kind": "IntegerLiteral",
       "offset": 991,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "FloatLiteral",
       "offset": 212,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 24,
       "value": "\"프로필 입력하고\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "IntegerLiteral",
       "offset": 364,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 28,
       "value": "\"gr_v3_ic_reward_point_base\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "StringLiteral",
       "offset": 676,
       "length": 25,
       "value": "\"adforus.GreenpOfferwall\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 28,
       "value": "\"포인트 받아가세요!\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "IntegerLiteral",
       "offset": 1066,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UIDesign\/ProfileRecommandView.swift",
       "kind": "StringLiteral",
       "offset": 1345,
       "length": 15,
       "value": "\"chevron.right\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 430,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "Array",
       "offset": 501,
       "length": 40,
       "value": "[\"광고적립 문의\", \"기타 문의\"]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "Array",
       "offset": 606,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "Array",
       "offset": 679,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 716,
       "length": 120,
       "value": "\"문의 내용을 구체적으로 작성해 주시면,\n문제 해결을 최대한 빨리 도와드릴 수 있습니다\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 866,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 1106,
       "length": 8,
       "value": "\"이름\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 1155,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 1316,
       "length": 27,
       "value": "\"이름을 입력하세요\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 1388,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 1494,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 1594,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 1720,
       "length": 11,
       "value": "\"연락처\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 1772,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 1935,
       "length": 13,
       "value": "\"01012345678\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 2037,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 2143,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 2243,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 2364,
       "length": 11,
       "value": "\"이메일\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 2416,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 2578,
       "length": 16,
       "value": "\"cs@example.com\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 2686,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 2792,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 2892,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 3016,
       "length": 21,
       "value": "\"문의할 캠페인\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 3078,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 3379,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 3485,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 3585,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 3711,
       "length": 15,
       "value": "\"문의 유형\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 3767,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 4064,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 4170,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 4270,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 4397,
       "length": 15,
       "value": "\"문의 내용\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 4453,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 4606,
       "length": 120,
       "value": "\"문의 내용을 구체적으로 작성해 주시면,\n문제 해결을 최대한 빨리 도와드릴 수 있습니다\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "BooleanLiteral",
       "offset": 4804,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "BooleanLiteral",
       "offset": 4844,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 4887,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 4926,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 5032,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 5195,
       "length": 14,
       "value": "\"파일첨부\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 5311,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "FloatLiteral",
       "offset": 5408,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 5465,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 5474,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 5485,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 5495,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 5551,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 5791,
       "length": 50,
       "value": "\"10MB 미만의 파일만 첨부 가능합니다.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 5882,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 6057,
       "length": 14,
       "value": "\"첨부파일\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 6112,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 6298,
       "length": 74,
       "value": "\"문의에 대한 답변은 등록하신 이메일로 보내드립니다.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 6413,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 6496,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 6657,
       "length": 28,
       "value": "\"개인정보 제공 동의\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 6726,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 7027,
       "length": 230,
       "value": "\"문의하기를 이용함에 따라 고객님의 연락처(이름, 연락처, 이메일)을 (주)애드포러스에 제공하며 제공된 정보는 고객문의 해결을 위하여 일시 보관되며, 60이후 파기됩니다.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 7298,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 7381,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "StringLiteral",
       "offset": 7588,
       "length": 14,
       "value": "\"문의하기\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsItemView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsItemView.swift",
       "kind": "IntegerLiteral",
       "offset": 7671,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 91,
       "length": 11,
       "value": "\"GreenpOfferwall.CsListParam\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2325,
       "length": 7,
       "value": "\"q_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2359,
       "length": 9,
       "value": "\"app_uid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2395,
       "length": 10,
       "value": "\"q_mobile\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2430,
       "length": 8,
       "value": "\"q_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2466,
       "length": 7,
       "value": "\"q_con\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2501,
       "length": 11,
       "value": "\"q_regdate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2539,
       "length": 10,
       "value": "\"q_status\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2576,
       "length": 11,
       "value": "\"q_ans_con\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2618,
       "length": 11,
       "value": "\"q_ansdate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2656,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2694,
       "length": 14,
       "value": "\"ads_icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2736,
       "length": 13,
       "value": "\"ads_summary\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2775,
       "length": 18,
       "value": "\"ads_reward_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2823,
       "length": 16,
       "value": "\"ads_price_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2325,
       "length": 7,
       "value": "\"q_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2359,
       "length": 9,
       "value": "\"app_uid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2395,
       "length": 10,
       "value": "\"q_mobile\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2430,
       "length": 8,
       "value": "\"q_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2466,
       "length": 7,
       "value": "\"q_con\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2501,
       "length": 11,
       "value": "\"q_regdate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2539,
       "length": 10,
       "value": "\"q_status\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2576,
       "length": 11,
       "value": "\"q_ans_con\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2618,
       "length": 11,
       "value": "\"q_ansdate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2656,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2694,
       "length": 14,
       "value": "\"ads_icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2736,
       "length": 13,
       "value": "\"ads_summary\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2775,
       "length": 18,
       "value": "\"ads_reward_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "StringLiteral",
       "offset": 2823,
       "length": 16,
       "value": "\"ads_price_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "Array",
       "offset": 2907,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "Array",
       "offset": 2952,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "IntegerLiteral",
       "offset": 2982,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/CsList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/CsList.swift",
       "kind": "BooleanLiteral",
       "offset": 3016,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageControlView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageControlView.swift",
       "kind": "Array",
       "offset": 266,
       "length": 41,
       "value": "[\"광고 참여 내역\", \"문의 내역\"]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageControlView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageControlView.swift",
       "kind": "Array",
       "offset": 351,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageControlView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageControlView.swift",
       "kind": "IntegerLiteral",
       "offset": 391,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 91,
       "length": 20,
       "value": "\"GreenpOfferwall.ParticipateListParam\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2196,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2230,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2271,
       "length": 14,
       "value": "\"ads_icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2311,
       "length": 18,
       "value": "\"ads_reward_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2359,
       "length": 16,
       "value": "\"ads_price_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2403,
       "length": 10,
       "value": "\"join_day\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2440,
       "length": 9,
       "value": "\"rwd_day\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2479,
       "length": 12,
       "value": "\"rwd_status\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2196,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2230,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2271,
       "length": 14,
       "value": "\"ads_icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2311,
       "length": 18,
       "value": "\"ads_reward_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2359,
       "length": 16,
       "value": "\"ads_price_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2403,
       "length": 10,
       "value": "\"join_day\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2440,
       "length": 9,
       "value": "\"rwd_day\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "StringLiteral",
       "offset": 2479,
       "length": 12,
       "value": "\"rwd_status\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "Array",
       "offset": 2586,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "Array",
       "offset": 2631,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "IntegerLiteral",
       "offset": 2661,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/ParticipateList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/ParticipateList.swift",
       "kind": "BooleanLiteral",
       "offset": 2695,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsViewModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsViewModel.swift",
       "kind": "Array",
       "offset": 259,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Cs\/CsViewModel.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Cs\/CsViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 439,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/Common\/WebViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/Common\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 12,
       "value": "\"google.com\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/Common\/WebViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/Common\/WebViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1025,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/Common\/WebViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/Common\/WebViewController.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 17,
       "value": "\"GreenpOfferwall.WebViewController\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 6,
       "value": "\"cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 10,
       "value": "\"sub_cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 420,
       "length": 13,
       "value": "\"sch_keyword\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 9,
       "value": "\"orderby\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 354,
       "length": 6,
       "value": "\"cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 10,
       "value": "\"sub_cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 420,
       "length": 13,
       "value": "\"sch_keyword\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 9,
       "value": "\"orderby\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 112,
       "length": 13,
       "value": "\"GreenpOfferwall.FeedListParam\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 1535,
       "length": 10,
       "value": "\"tot_page\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 1569,
       "length": 10,
       "value": "\"now_page\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 1602,
       "length": 12,
       "value": "\"tot_reward\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 1535,
       "length": 10,
       "value": "\"tot_page\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 1569,
       "length": 10,
       "value": "\"now_page\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
       "offset": 1602,
       "length": 12,
       "value": "\"tot_reward\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2059,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2089,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2073,
+      "offset": 2124,
       "length": 15,
       "value": "\"ads_brief_txt\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2110,
+      "offset": 2161,
       "length": 16,
       "value": "\"ads_sale_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2150,
+      "offset": 2201,
       "length": 13,
       "value": "\"ads_summary\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2191,
+      "offset": 2242,
       "length": 14,
       "value": "\"ads_feed_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2232,
+      "offset": 2283,
       "length": 14,
       "value": "\"ads_icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2275,
+      "offset": 2321,
+      "length": 10,
+      "value": "\"ads_type\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 14,
+      "value": "\"ads_sub_type\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
+      "kind": "StringLiteral",
+      "offset": 2401,
       "length": 14,
       "value": "\"ads_sub_cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2312,
+      "offset": 2438,
       "length": 18,
       "value": "\"ads_reward_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2355,
+      "offset": 2481,
       "length": 10,
       "value": "\"ads_cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2391,
+      "offset": 2517,
       "length": 16,
       "value": "\"ads_price_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2059,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2089,
       "length": 10,
       "value": "\"ads_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2073,
+      "offset": 2124,
       "length": 15,
       "value": "\"ads_brief_txt\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2110,
+      "offset": 2161,
       "length": 16,
       "value": "\"ads_sale_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2150,
+      "offset": 2201,
       "length": 13,
       "value": "\"ads_summary\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2191,
+      "offset": 2242,
       "length": 14,
       "value": "\"ads_feed_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2232,
+      "offset": 2283,
       "length": 14,
       "value": "\"ads_icon_img\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2275,
+      "offset": 2321,
+      "length": 10,
+      "value": "\"ads_type\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
+      "kind": "StringLiteral",
+      "offset": 2358,
+      "length": 14,
+      "value": "\"ads_sub_type\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
+      "kind": "StringLiteral",
+      "offset": 2401,
       "length": 14,
       "value": "\"ads_sub_cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2312,
+      "offset": 2438,
       "length": 18,
       "value": "\"ads_reward_price\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2355,
+      "offset": 2481,
       "length": 10,
       "value": "\"ads_cate\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "StringLiteral",
-      "offset": 2391,
+      "offset": 2517,
       "length": 16,
       "value": "\"ads_price_type\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "Array",
-      "offset": 2527,
+      "offset": 2653,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "Array",
-      "offset": 2570,
+      "offset": 2696,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "IntegerLiteral",
-      "offset": 2600,
+      "offset": 2726,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/FeedList.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/FeedList.swift",
       "kind": "BooleanLiteral",
-      "offset": 2634,
+      "offset": 2760,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 14,
       "value": "\"app_uniq_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 278,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 327,
       "length": 14,
       "value": "\"app_uniq_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 711,
       "length": 3,
       "value": "\"n\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 115,
       "length": 16,
       "value": "\"GreenpOfferwall.ParticipateParam\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1089,
       "length": 5,
       "value": "\"rst\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1166,
       "length": 9,
       "value": "\"grp_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1089,
       "length": 5,
       "value": "\"rst\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1118,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1166,
       "length": 9,
       "value": "\"grp_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1444,
       "length": 5,
       "value": "\"rst\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 9,
       "value": "\"grp_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1444,
       "length": 5,
       "value": "\"rst\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1473,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 9,
       "value": "\"grp_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1704,
       "length": 9,
       "value": "\"grp_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1704,
       "length": 9,
       "value": "\"grp_key\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/Participate.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Participate.swift",
       "kind": "StringLiteral",
       "offset": 1566,
       "length": 20,
       "value": "\"GreenpOfferwall.ParticipateNewsParam\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Logger.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Logger.swift",
       "kind": "BooleanLiteral",
       "offset": 148,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 10,
       "value": "\"deviceid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 373,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 7,
       "value": "\"q_con\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 10,
       "value": "\"q_mobile\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 9,
       "value": "\"q_email\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 8,
       "value": "\"q_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 8,
       "value": "\"q_file\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 344,
       "length": 10,
       "value": "\"deviceid\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 373,
       "length": 9,
       "value": "\"ads_idx\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 406,
       "length": 7,
       "value": "\"q_con\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 10,
       "value": "\"q_mobile\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 468,
       "length": 9,
       "value": "\"q_email\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 8,
       "value": "\"q_name\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 8,
       "value": "\"q_file\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Models\/SendCsParam.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/SendCsParam.swift",
       "kind": "StringLiteral",
       "offset": 89,
       "length": 11,
       "value": "\"GreenpOfferwall.SendCsParam\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/NavigationTitleView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/NavigationTitleView.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 13,
       "value": "\"greenp_logo\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/NavigationTitleView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/NavigationTitleView.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 25,
       "value": "\"adforus.GreenpOfferwall\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/NavigationTitleView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/NavigationTitleView.swift",
       "kind": "IntegerLiteral",
       "offset": 571,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListTableViewBottomCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListTableViewBottomCell.swift",
       "kind": "IntegerLiteral",
       "offset": 466,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageListTableViewBottomCell.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageListTableViewBottomCell.swift",
       "kind": "IntegerLiteral",
       "offset": 516,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 251,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 287,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 327,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Mypage\/MypageViewController.swift",
       "kind": "StringLiteral",
       "offset": 117,
       "length": 20,
       "value": "\"GreenpOfferwall.MypageViewController\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/Extensions\/UIColor+Extensions.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Extensions\/UIColor+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 190,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 26,
+      "value": "\"FeedDetailViewController\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 371,
+      "offset": 527,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 782,
+      "offset": 983,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 851,
+      "offset": 1052,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1096,
+      "offset": 1297,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1211,
+      "offset": 1412,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1368,
+      "offset": 1569,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1378,
+      "offset": 1579,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1390,
+      "offset": 1591,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1402,
+      "offset": 1603,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1437,
+      "offset": 1638,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1483,
+      "offset": 1684,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1528,
+      "offset": 1729,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1706,
+      "offset": 1907,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1716,
+      "offset": 1917,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1728,
+      "offset": 1929,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1739,
+      "offset": 1940,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1774,
+      "offset": 1975,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1857,
+      "offset": 2058,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1897,
+      "offset": 2098,
       "length": 221,
       "value": "\"[유의사항]\n※내려받기의 경우 반드시 적립요청을 눌러 주세요.\n※포인트 적립이 되지 않을 경우 리스트 상단의 문의하기에 남겨주세요.\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/FeedDetailViewController.swift",
       "kind": "StringLiteral",
-      "offset": 141,
+      "offset": 203,
       "length": 24,
       "value": "\"GreenpOfferwall.FeedDetailViewController\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/PageControlView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/PageControlView.swift",
       "kind": "Array",
       "offset": 432,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/PageControlView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/PageControlView.swift",
       "kind": "IntegerLiteral",
       "offset": 505,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/app\/ios\/ExtendsProject\/GreenpOfferwall\/OfferWallMain\/PageControlView.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/PageControlView.swift",
       "kind": "BooleanLiteral",
       "offset": 3606,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/adforus_m1\/Library\/Developer\/Xcode\/DerivedData\/ExtendsProject-fuhnnuucofrzxrbtbplibuezplkm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/GreenpOfferwall\/IntermediateBuildFilesPath\/ExtendsProject.build\/Release-iphonesimulator\/GreenpOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Visit.swift",
+      "kind": "StringLiteral",
+      "offset": 90,
+      "length": 10,
+      "value": "\"GreenpOfferwall.VisitParam\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/Library\/Developer\/Xcode\/DerivedData\/ExtendsProject-efxgxpittlnqqoeldiynzjbdpehg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/GreenpOfferwall\/IntermediateBuildFilesPath\/ExtendsProject.build\/Release-iphonesimulator\/GreenpOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 760,
       "length": 28,
       "value": "\"gr_v3_ic_reward_point_base\""
     },
     {
-      "filePath": "\/Users\/adforus_m1\/Library\/Developer\/Xcode\/DerivedData\/ExtendsProject-fuhnnuucofrzxrbtbplibuezplkm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/GreenpOfferwall\/IntermediateBuildFilesPath\/ExtendsProject.build\/Release-iphonesimulator\/GreenpOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/adforus_m1\/Library\/Developer\/Xcode\/DerivedData\/ExtendsProject-efxgxpittlnqqoeldiynzjbdpehg\/Build\/Intermediates.noindex\/ArchiveIntermediates\/GreenpOfferwall\/IntermediateBuildFilesPath\/ExtendsProject.build\/Release-iphonesimulator\/GreenpOfferwall.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 919,
       "length": 13,

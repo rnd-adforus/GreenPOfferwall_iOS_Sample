@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.9.1)
-  - GreenPOfferWall (3.1.1):
+  - GreenPOfferWall (3.2.0):
     - Alamofire (= 5.9.1)
     - Kingfisher (= 7.11.0)
     - SnapKit (= 5.7.1)
@@ -8,7 +8,7 @@ PODS:
   - SnapKit (5.7.1)
 
 DEPENDENCIES:
-  - GreenPOfferWall (= 3.1.1)
+  - GreenPOfferWall (= 3.2.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -19,10 +19,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
-  GreenPOfferWall: 9efa245020687899ea73420b1ed8d4bc4088cf13
+  GreenPOfferWall: ec2973c91ed622fa73f384fd1c4bd3d9e52543bf
   Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
 
-PODFILE CHECKSUM: f848073c95180baef3f5b6923c1094d6ac2e683d
+PODFILE CHECKSUM: fab6b830c98a512d5ff2fe2cc58d6843824a889b
 
 COCOAPODS: 1.15.2
