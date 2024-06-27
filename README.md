@@ -1,6 +1,6 @@
 ## GreenPOfferwall_Extends_iOS
 
-## Version 3.1.2.0
+## Version 3.2.0.0
 - Swift version 5.8
 - Minimum iOS version 14.0
   
@@ -13,7 +13,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.1.2.0'
+  pod 'GreenPOfferWallExs', '3.2.0.0'
 end
 
 post_install do |pi|
