@@ -1,14 +1,14 @@
 PODS:
-  - Ads-Global (5.8.0.8):
-    - Ads-Global/BUAdSDK (= 5.8.0.8)
-  - Ads-Global/BUAdSDK (5.8.0.8):
+  - Ads-Global (5.9.0.9):
+    - Ads-Global/BUAdSDK (= 5.9.0.9)
+  - Ads-Global/BUAdSDK (5.9.0.9):
     - Ads-Global/BURelyAdSDK
     - Ads-Global/Dep_Accurate
-  - Ads-Global/BURelyAdSDK (5.8.0.8)
-  - Ads-Global/Dep_Accurate (5.8.0.8):
+  - Ads-Global/BURelyAdSDK (5.9.0.9)
+  - Ads-Global/Dep_Accurate (5.9.0.9):
     - BURelyFoundation_Global/Pangle (= 0.2.1.4)
   - Alamofire (5.9.1)
-  - AppLovinSDK (12.4.1)
+  - AppLovinSDK (12.5.0)
   - BURelyFoundation_Global/AFNetworking (0.2.1.4)
   - BURelyFoundation_Global/APM (0.2.1.4)
   - BURelyFoundation_Global/Foundation (0.2.1.4):
@@ -37,34 +37,34 @@ PODS:
     - BURelyFoundation_Global/Zip
   - BURelyFoundation_Global/Zip (0.2.1.4):
     - BURelyFoundation_Global/Foundation
-  - Google-Mobile-Ads-SDK (11.3.0):
+  - Google-Mobile-Ads-SDK (11.5.0):
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleMobileAdsMediationAppLovin (12.4.1.0):
-    - AppLovinSDK (= 12.4.1)
+  - GoogleMobileAdsMediationAppLovin (12.5.0.0):
+    - AppLovinSDK (= 12.5.0)
     - Google-Mobile-Ads-SDK (~> 11.0)
-  - GoogleMobileAdsMediationPangle (5.8.0.8.0):
-    - Ads-Global (= 5.8.0.8)
+  - GoogleMobileAdsMediationPangle (5.9.0.9.0):
+    - Ads-Global (= 5.9.0.9)
     - Google-Mobile-Ads-SDK (~> 11.0)
-  - GoogleMobileAdsMediationUnity (4.10.0.0):
+  - GoogleMobileAdsMediationUnity (4.11.3.1):
     - Google-Mobile-Ads-SDK (~> 11.0)
-    - UnityAds (= 4.10.0)
-  - GoogleUserMessagingPlatform (2.4.0)
-  - GreenPOfferWallExs (3.1.1.1):
+    - UnityAds (= 4.11.3)
+  - GoogleUserMessagingPlatform (2.5.0)
+  - GreenPOfferWallExs (3.2.0.0):
     - Kingfisher (= 7.11.0)
     - SnapKit (= 5.7.1)
-    - UAdKit (= 1.0.2)
+    - UAdKit (= 1.0.3)
   - Kingfisher (7.11.0)
   - SnapKit (5.7.1)
-  - UAdKit (1.0.2):
+  - UAdKit (1.0.3):
     - Alamofire (= 5.9.1)
-    - Google-Mobile-Ads-SDK (= 11.3.0)
-    - GoogleMobileAdsMediationAppLovin (= 12.4.1.0)
-    - GoogleMobileAdsMediationPangle (= 5.8.0.8.0)
-    - GoogleMobileAdsMediationUnity (= 4.10.0.0)
-  - UnityAds (4.10.0)
+    - Google-Mobile-Ads-SDK (= 11.5.0)
+    - GoogleMobileAdsMediationAppLovin (= 12.5.0.0)
+    - GoogleMobileAdsMediationPangle (= 5.9.0.9.0)
+    - GoogleMobileAdsMediationUnity (= 4.11.3.1)
+  - UnityAds (4.11.3)
 
 DEPENDENCIES:
-  - GreenPOfferWallExs (= 3.1.1.1)
+  - GreenPOfferWallExs (= 3.2.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -84,21 +84,21 @@ SPEC REPOS:
     - UnityAds
 
 SPEC CHECKSUMS:
-  Ads-Global: b2f2943acdeedeae08aa9dce19706e1edbbd5442
+  Ads-Global: eb2b0f3e6bf2bb9af37d7fc2646f7db975e7d639
   Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
-  AppLovinSDK: c57ad0d34625c971d2db127f8ef60570b28ff51a
+  AppLovinSDK: 626d2aea57ae1bf9280d2012e8e20c521c58ce28
   BURelyFoundation_Global: 17ed9cd58d138feefd8c0711dd3294766adcb28e
-  Google-Mobile-Ads-SDK: 301a16c461c331ba34ff4dab40a22ab7c147af61
-  GoogleMobileAdsMediationAppLovin: bec02fea799187f82edb151c227bc0723953d15c
-  GoogleMobileAdsMediationPangle: 436633392ec6f35b288e4a6469a877d2d83bbbd1
-  GoogleMobileAdsMediationUnity: 144474b1e19b3b4a8b60cf3da8f0d9ca25d83597
-  GoogleUserMessagingPlatform: f131fa7978d2ba88d7426702b057c2cc318e6595
-  GreenPOfferWallExs: 08374cb1e15cc8d922a8a11e30c759b7aed93fdb
+  Google-Mobile-Ads-SDK: 7db2098033ad3bfcd72a11e7503b49700a93029e
+  GoogleMobileAdsMediationAppLovin: f4bfc543685340297fee0d61fa0dd9e5769c015f
+  GoogleMobileAdsMediationPangle: bd927e2c38fc33c7fef1d2f60275887f3167da94
+  GoogleMobileAdsMediationUnity: 2c73470a19241140e7ef8c6eef119611c24846bd
+  GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
+  GreenPOfferWallExs: 6ae1e4682f8644961c4769a33317e9851277a25b
   Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
-  UAdKit: 935386efbb4bc48270743a111605aee5fd26c8ed
-  UnityAds: 5601f6397b0e02ed3ed6ee92827f5177a523aab6
+  UAdKit: 7a53f1f52b8612e425f4d1688317a46bcdcac973
+  UnityAds: 4c2dbd3e82778b536b0bad23b640c16aae91dbb1
 
-PODFILE CHECKSUM: 9eae4b145a1830a613f7ddb95f2c8a4a70d90bd6
+PODFILE CHECKSUM: d9f99bc5e4503f865be764b6e1c7707dd1a038c7
 
 COCOAPODS: 1.15.2

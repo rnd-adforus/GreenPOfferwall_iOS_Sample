@@ -16,7 +16,8 @@
 		594858652BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858642BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift */; };
 		5948586F2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948586E2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift */; };
 		594858712BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858702BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift */; };
-		9BF12C5AFD559DF519C8493A /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486FB8302D2AC2CAC23B044 /* Pods_GreenpOfferwallSample.framework */; };
+		59DC05DD2C2CF3C200391AF1 /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486FB8302D2AC2CAC23B044 /* Pods_GreenpOfferwallSample.framework */; };
+		59DC05DE2C2CF3C200391AF1 /* Pods_GreenpOfferwallSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8486FB8302D2AC2CAC23B044 /* Pods_GreenpOfferwallSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A2E9D40F6A1864C9723E48A1 /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB1B9B3F942615E89D2327C /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */; };
 		A3C820280C7C277D4112121C /* Pods_GreenpOfferwallSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3D965235B9AFEF5426390B /* Pods_GreenpOfferwallSampleTests.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				59DC05DE2C2CF3C200391AF1 /* Pods_GreenpOfferwallSample.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF12C5AFD559DF519C8493A /* Pods_GreenpOfferwallSample.framework in Frameworks */,
+				59DC05DD2C2CF3C200391AF1 /* Pods_GreenpOfferwallSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +650,8 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GreenpOfferwallSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GreenpExtends;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "이 앱은 광고 타겟팅 및 개인화된 광고를 제공하기 위해 사용자의 활동을 추적합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -659,7 +663,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = adforus.GreenpOfferwallSample;
+				PRODUCT_BUNDLE_IDENTIFIER = adforus.GreenpOfferwallExsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -686,6 +690,8 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GreenpOfferwallSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GreenpExtends;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "이 앱은 광고 타겟팅 및 개인화된 광고를 제공하기 위해 사용자의 활동을 추적합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -697,8 +703,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = adforus.GreenpOfferwallSample;
+				OTHER_LDFLAGS = (
+					"-framework",
+					"\"GreenpOfferwall\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adforus.GreenpOfferwallExsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
