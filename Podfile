@@ -3,7 +3,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.2.0.0'
+  pod 'GreenPOfferWallExs', '3.2.1.0'
   target 'GreenpOfferwallSampleTests' do
     inherit! :search_paths
     # Pods for testing

@@ -1,6 +1,6 @@
 ## GreenPOfferwall_Extends_iOS
 
-## Version 3.2.0.0
+## Version 3.2.1.0
 - Swift version 5.8
 - Minimum iOS version 14.0
   
@@ -13,7 +13,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.2.0.0'
+  pod 'GreenPOfferWallExs', '3.2.1.0'
 end
 
 post_install do |pi|
@@ -294,6 +294,9 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 3.2.1.0
+- 그린피 어드민에 버전 정보 표시 기능 적용
+
 ### 3.2.0.0
 - 광고 검색 기능 그린피 어드민으로 ON/OFF 되도록 수정
 - 클릭 체류형 광고타입 적용
