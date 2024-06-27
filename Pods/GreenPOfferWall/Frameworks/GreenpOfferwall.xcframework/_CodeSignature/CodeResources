@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/GreenpOfferwall.framework/GreenpOfferwall</key>
 		<data>
-		oe1y+tCoG1DxI8enTC1W3BiS8pM=
+		NeAhjIiwE4FNoe4JIGvpP+mhPcY=
 		</data>
 		<key>ios-arm64/GreenpOfferwall.framework/Headers/GreenpOfferwall-Swift.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>ios-arm64/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mNRUL/WT4DyWKa9QJhYwcHgLTd4=
+		cOWAeRVv18lalt+RwNtvWXlls58=
 		</data>
 		<key>ios-arm64/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>ios-arm64/GreenpOfferwall.framework/_CodeSignature/CodeResources</key>
 		<data>
-		NLdmRG+nXpMngAWlUFQpUuCO4qM=
+		5AFEBggn9nz2KxkBFtSQQEqagDU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Assets.car</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/GreenpOfferwall</key>
 		<data>
-		0Aq9H7KSBPbqKa2GEpGV44XOhfA=
+		wPZnDBVHGPb+WnzvUX07SJBqimU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Headers/GreenpOfferwall-Swift.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		YVSVpcsJ/JUW87TUq88krIIePGQ=
+		5aBtfkBs+qkBzSjudU28qhmOQK0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		YVSVpcsJ/JUW87TUq88krIIePGQ=
+		5aBtfkBs+qkBzSjudU28qhmOQK0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Tn5+dKZQctMe6SNAP3tJ7UB3GDg=
+		jZvRER5ulvEQ9EWntjCsofeXH/Q=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -166,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oe1y+tCoG1DxI8enTC1W3BiS8pM=
+			NeAhjIiwE4FNoe4JIGvpP+mhPcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qswHCq8gnAvWHcNdfwRKOO7W8FBUtjOdSsXIaV2e0as=
+			UoTlyVU4t0Q2wMY7BXyPkvO6R1trXXcb6ATwM3tB68A=
 			</data>
 		</dict>
 		<key>ios-arm64/GreenpOfferwall.framework/Headers/GreenpOfferwall-Swift.h</key>
@@ -210,11 +210,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mNRUL/WT4DyWKa9QJhYwcHgLTd4=
+			cOWAeRVv18lalt+RwNtvWXlls58=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Mdnb95yBRESbcZjw4dt9jen3z+zn0lKrr3IqzRnP6k=
+			uKMuLEnNSbu6C0v5cncZRq5fQ0xcexSoVrYPlx/sUkA=
 			</data>
 		</dict>
 		<key>ios-arm64/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -320,11 +320,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NLdmRG+nXpMngAWlUFQpUuCO4qM=
+			5AFEBggn9nz2KxkBFtSQQEqagDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			x7427kAaYy1/3alaAs6ybyDFfjtYLrIq8p8AiqLyhMM=
+			y2LdM48U1x0BslHNBJf13m5dCKGPsqSvrnOLfvicx0E=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Assets.car</key>
@@ -342,11 +342,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0Aq9H7KSBPbqKa2GEpGV44XOhfA=
+			wPZnDBVHGPb+WnzvUX07SJBqimU=
 			</data>
 			<key>hash2</key>
 			<data>
-			u+zg1e2wk0NXcvWFPZPKD2xqfUcOXRKZ/uifj/HRMz8=
+			dNkMIo8Ja2RBu0qSuQBgKS9gljoUrz3OTCCGvqobCJ8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Headers/GreenpOfferwall-Swift.h</key>
@@ -386,11 +386,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YVSVpcsJ/JUW87TUq88krIIePGQ=
+			5aBtfkBs+qkBzSjudU28qhmOQK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5NwOly3BNxWlN+8bdLWebwJjLy39WfL0SX046RACYBI=
+			QkUz1cy5k9RzJM8zvGsAwppMpQvQf7j0lMr5sSblb3Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -430,11 +430,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YVSVpcsJ/JUW87TUq88krIIePGQ=
+			5aBtfkBs+qkBzSjudU28qhmOQK0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5NwOly3BNxWlN+8bdLWebwJjLy39WfL0SX046RACYBI=
+			QkUz1cy5k9RzJM8zvGsAwppMpQvQf7j0lMr5sSblb3Y=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/GreenpOfferwall.framework/Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -540,11 +540,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tn5+dKZQctMe6SNAP3tJ7UB3GDg=
+			jZvRER5ulvEQ9EWntjCsofeXH/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			xwXp/lREbsHsh/acKkb05gvIqlDwQZQLDcdXLJBLYRw=
+			KgTAqMYVCcznj2rKTwjPkJxDQpUHjjxr5xp7XUt1e7c=
 			</data>
 		</dict>
 	</dict>
