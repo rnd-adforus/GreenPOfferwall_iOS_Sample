@@ -49,7 +49,7 @@ PODS:
     - Google-Mobile-Ads-SDK (~> 11.0)
     - UnityAds (= 4.11.3)
   - GoogleUserMessagingPlatform (2.5.0)
-  - GreenPOfferWallExs (3.2.1.0):
+  - GreenPOfferWallExs (3.3.0.0):
     - Kingfisher (= 7.11.0)
     - SnapKit (= 5.7.1)
     - UAdKit (= 1.0.3)
@@ -64,7 +64,7 @@ PODS:
   - UnityAds (4.11.3)
 
 DEPENDENCIES:
-  - GreenPOfferWallExs (= 3.2.1.0)
+  - GreenPOfferWallExs (= 3.3.0.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -93,12 +93,12 @@ SPEC CHECKSUMS:
   GoogleMobileAdsMediationPangle: bd927e2c38fc33c7fef1d2f60275887f3167da94
   GoogleMobileAdsMediationUnity: 2c73470a19241140e7ef8c6eef119611c24846bd
   GoogleUserMessagingPlatform: 6b4f48a370e77ce121d034c908cc6ee4fdafaf13
-  GreenPOfferWallExs: f384dacded8684e42a468c3f25783d62731da15e
+  GreenPOfferWallExs: 76843fe60c7447c0cb805ea37b2257fc2317fe2c
   Kingfisher: b9c985d864d43515f404f1ef4a8ce7d802ace3ac
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   UAdKit: 7a53f1f52b8612e425f4d1688317a46bcdcac973
   UnityAds: 4c2dbd3e82778b536b0bad23b640c16aae91dbb1
 
-PODFILE CHECKSUM: 7aa45fd82fc6ae536a963433877a323b6cc5d3d0
+PODFILE CHECKSUM: d91603fbf0b1b8b89b786ec32573ea0207042318
 
 COCOAPODS: 1.15.2

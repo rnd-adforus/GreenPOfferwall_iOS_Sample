@@ -1,6 +1,6 @@
 ## GreenPOfferwall_Extends_iOS
 
-## Version 3.2.1.0
+## Version 3.3.0.0
 - Swift version 5.8
 - Minimum iOS version 14.0
 
@@ -21,7 +21,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.2.1.0'
+  pod 'GreenPOfferWallExs', '3.3.0.0'
 end
 
 post_install do |pi|
@@ -277,7 +277,7 @@ greenP.show(on: self)
 
 
 extension ViewController : GreenPDelegate {
-    func greenPSettingsDidEnd(with message: String) {
+    func greenPSettingsDidEnd(with message: String, result: Bool) {
       // 성공 & 실패 시 메세지 노출
     }
 }
@@ -302,6 +302,13 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 3.3.0.0
+- 광고 표시 유형 리스트/피드형 버튼, 문의하기 버튼 그린피 어드민에서 ON/OFF 되도록 지원
+- 광고 초기화 델리게이트 GreenPDelegate의 콜백 함수 greenPSettingsDidEnd에 초기화 성공 여부에 대한 파라미터를 지원
+- 개인정보동의 팝업이 그린피 오퍼월 UI 팝업 이후 표시 되도록 수정
+- ATT 동의 여부에 상관없이 그린피 오퍼월 UI가 팝업 되도록 수정. (단, 미 동의 시 광고 목록에 제한이 있음)
+- 그린피 오퍼월 아이콘 ON/OFF 기능과 관련된 버그 픽스
+
 ### 3.2.1.0
 - 그린피 어드민에 버전 정보 표시 기능 적용
 
