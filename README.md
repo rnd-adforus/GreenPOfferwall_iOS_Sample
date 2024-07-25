@@ -3,7 +3,15 @@
 ## Version 3.2.1.0
 - Swift version 5.8
 - Minimum iOS version 14.0
-  
+
+## Greenp Offerwall iOS v3 For Extend 
+Greenp Offerwall iOS v3 For Extend은 그린피 오퍼월 광고와 구글 광고(배너, 전면, 리워드, 네이티브)를 모두 지원 받을 수 있는 통합 SDK 서비스입니다.
+그린피 오퍼월 내에서도 다음과 같이 구글 광고가 지원됩니다. <br>
+
+**_구글 광고 송출을 위한 운영 프로세스를 선 진행해 주시길 바랍니다._**<br>[GreenPOfferwall + Google 통합 MCM 가이드](https://www.notion.so/Greenp-Google-MCM-59a57e636bbc411d90c14918d1bc8de8)<br>
+
+![그린피 오퍼월 통합 내 구글 광고](https://i.imgur.com/o6phMzJ.png)
+
 ## Installation
 GreenPOfferwall Extends SDK는 Cocoapods으로 지원됩니다. 다음과 같이, Podfile을 작성하시어 적용하여 주기실 바랍니다.  
 ```
