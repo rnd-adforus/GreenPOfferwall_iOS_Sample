@@ -298,8 +298,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class UIViewController;
 @class NSString;
+
+SWIFT_PROTOCOL("_TtP15GreenpOfferwall14GreenPDelegate_")
+@protocol GreenPDelegate
+@optional
+- (void)greenPSettingsDidEndWith:(NSString * _Nonnull)message;
+- (void)greenPSettingsDidEndWith:(NSString * _Nonnull)message result:(BOOL)result;
+@end
+
+@class UIViewController;
 @class NSBundle;
 @class NSCoder;
 
@@ -632,8 +640,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@class UIViewController;
 @class NSString;
+
+SWIFT_PROTOCOL("_TtP15GreenpOfferwall14GreenPDelegate_")
+@protocol GreenPDelegate
+@optional
+- (void)greenPSettingsDidEndWith:(NSString * _Nonnull)message;
+- (void)greenPSettingsDidEndWith:(NSString * _Nonnull)message result:(BOOL)result;
+@end
+
+@class UIViewController;
 @class NSBundle;
 @class NSCoder;
 

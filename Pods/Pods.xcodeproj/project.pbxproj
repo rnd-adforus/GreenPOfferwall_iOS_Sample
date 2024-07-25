@@ -1856,24 +1856,6 @@
 			};
 			name = Release;
 		};
-		5734D5C5FF6ECE1D69F6301CBFA0BAE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 814BB58B361D1AC1ECAA0E591CFE7D48 /* GreenPOfferWall.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		59BA606EC0D510D0FD4FABF694CE17BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27D458A61627343CFB2DB5C716F66B0F /* Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests.debug.xcconfig */;
@@ -2002,6 +1984,25 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		744D1591FA18443BAE204B11332D1378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA6935DD496EBA8999F91BC159A7D44 /* GreenPOfferWall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		7522E4EF2F98061C333A6F73FEB99585 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2199,25 +2200,6 @@
 			};
 			name = Release;
 		};
-		ABBCEF072D469E58763B2A34B41FEBEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CA6935DD496EBA8999F91BC159A7D44 /* GreenPOfferWall.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		B0845000E9A1837269BCAB63FAF85CB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 99E7B4CC40EF09E9CC6794B97DD0047D /* Kingfisher.release.xcconfig */;
@@ -2251,6 +2233,24 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BD5D88B513B1F76FA5A775D5B993ECB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814BB58B361D1AC1ECAA0E591CFE7D48 /* GreenPOfferWall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -2379,8 +2379,8 @@
 		075E34C109263EF14D148ECF3CE0CDF4 /* Build configuration list for PBXAggregateTarget "GreenPOfferWall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5734D5C5FF6ECE1D69F6301CBFA0BAE9 /* Debug */,
-				ABBCEF072D469E58763B2A34B41FEBEC /* Release */,
+				BD5D88B513B1F76FA5A775D5B993ECB5 /* Debug */,
+				744D1591FA18443BAE204B11332D1378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -33,18 +33,29 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
         "declKind": "Import",
-        "moduleName": "GreenpOfferwall",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "GreenpOfferwall"
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "GreenpOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "GreenpOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "GreenpOfferwall",
         "declAttributes": [
@@ -944,24 +955,68 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15GreenpOfferwall14GreenPDelegateP20greenPSettingsDidEnd4withySS_tF",
+            "usr": "c:@M@GreenpOfferwall@objc(pl)GreenPDelegate(im)greenPSettingsDidEndWith:",
             "mangledName": "$s15GreenpOfferwall14GreenPDelegateP20greenPSettingsDidEnd4withySS_tF",
             "moduleName": "GreenpOfferwall",
             "genericSig": "<τ_0_0 where τ_0_0 : GreenpOfferwall.GreenPDelegate>",
             "sugared_genericSig": "<Self where Self : GreenpOfferwall.GreenPDelegate>",
             "protocolReq": true,
+            "objc_name": "greenPSettingsDidEndWith:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "greenPSettingsDidEnd",
+            "printedName": "greenPSettingsDidEnd(with:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@GreenpOfferwall@objc(pl)GreenPDelegate(im)greenPSettingsDidEndWith:result:",
+            "mangledName": "$s15GreenpOfferwall14GreenPDelegateP20greenPSettingsDidEnd4with6resultySS_SbtF",
+            "moduleName": "GreenpOfferwall",
+            "genericSig": "<τ_0_0 where τ_0_0 : GreenpOfferwall.GreenPDelegate>",
+            "sugared_genericSig": "<Self where Self : GreenpOfferwall.GreenPDelegate>",
+            "protocolReq": true,
+            "objc_name": "greenPSettingsDidEndWith:result:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:15GreenpOfferwall14GreenPDelegateP",
+        "usr": "c:@M@GreenpOfferwall@objc(pl)GreenPDelegate",
         "mangledName": "$s15GreenpOfferwall14GreenPDelegateP",
         "moduleName": "GreenpOfferwall",
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ]
       },
       {
@@ -984,7 +1039,7 @@
                 "kind": "TypeNominal",
                 "name": "GreenPDelegate",
                 "printedName": "any GreenpOfferwall.GreenPDelegate",
-                "usr": "s:15GreenpOfferwall14GreenPDelegateP"
+                "usr": "c:@M@GreenpOfferwall@objc(pl)GreenPDelegate"
               }
             ],
             "declKind": "Constructor",
@@ -1024,7 +1079,8 @@
             "mangledName": "$s15GreenpOfferwall14GreenPSettingsC3set7appCode6userIDySS_SStF",
             "moduleName": "GreenpOfferwall",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1618,6 +1674,37 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GreenpOfferwall",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "GreenpOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "MessageUI",
+        "printedName": "MessageUI",
+        "declKind": "Import",
+        "moduleName": "GreenpOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "GreenpOfferwall"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1807,28 +1894,35 @@
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/SplashViewModel.swift",
       "kind": "Array",
-      "offset": 289,
+      "offset": 386,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 810,
+      "offset": 999,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 836,
+      "offset": 1025,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/OfferWallViewController.swift",
       "kind": "StringLiteral",
-      "offset": 137,
+      "offset": 202,
       "length": 23,
       "value": "\"GreenpOfferwall.OfferWallViewController\""
     },
@@ -1971,13 +2065,6 @@
       "offset": 117,
       "length": 18,
       "value": "\"GreenpOfferwall.RadioTagButtonView\""
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/SplashViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 119,
-      "length": 20,
-      "value": "\"GreenpOfferwall.SplashViewController\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Flutter\/GreenpFlutter.swift",
@@ -2311,224 +2398,350 @@
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 3376,
-      "length": 3,
-      "value": "\"Y\""
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3382,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3389,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3450,
-      "length": 3,
-      "value": "\"Y\""
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3456,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "BooleanLiteral",
       "offset": 3463,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 3513,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3519,
+      "offset": 3469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3526,
+      "offset": 3476,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 3582,
+      "offset": 3530,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3588,
+      "offset": 3536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3595,
+      "offset": 3543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 3645,
+      "offset": 3604,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3651,
+      "offset": 3610,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3658,
+      "offset": 3617,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3667,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3673,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3680,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3736,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3742,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3799,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3805,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3812,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3870,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3876,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3935,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3941,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "Array",
-      "offset": 3725,
+      "offset": 4015,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "Array",
-      "offset": 3905,
+      "offset": 4195,
       "length": 5,
       "value": "[[]]"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4397,
+      "offset": 4776,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4403,
+      "offset": 4782,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4410,
+      "offset": 4789,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4478,
+      "offset": 4850,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4484,
+      "offset": 4856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4491,
+      "offset": 4863,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4548,
+      "offset": 4931,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4554,
+      "offset": 4937,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4561,
+      "offset": 4944,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4624,
+      "offset": 5001,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4630,
+      "offset": 5007,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4637,
+      "offset": 5014,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4694,
+      "offset": 5077,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4700,
+      "offset": 5083,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 4707,
+      "offset": 5090,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5147,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5153,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5160,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5225,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5231,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 5297,
+      "length": 3,
+      "value": "\"Y\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5303,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/UserInfo.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5310,
       "length": 5,
       "value": "false"
     },
@@ -2628,7 +2841,7 @@
       "kind": "StringLiteral",
       "offset": 727,
       "length": 7,
-      "value": "\"3.2.1\""
+      "value": "\"3.3.0\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/News\/TimerWebViewModel.swift",
@@ -2783,6 +2996,13 @@
       "offset": 194,
       "length": 22,
       "value": "\"OfferWall Message : \""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/GreenPSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 728,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/FeedList\/AdListCell.swift",
@@ -3305,238 +3525,266 @@
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
+      "offset": 2736,
       "length": 11,
       "value": "\"list_type\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2801,
       "length": 7,
       "value": "\"color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2733,
+      "offset": 2842,
       "length": 16,
       "value": "\"small_bg_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2779,
+      "offset": 2888,
       "length": 12,
       "value": "\"font_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2824,
+      "offset": 2933,
       "length": 18,
       "value": "\"small_font_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2871,
+      "offset": 2980,
       "length": 11,
       "value": "\"btn_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2911,
+      "offset": 3020,
       "length": 9,
       "value": "\"imp_chk\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2950,
-      "length": 11,
-      "value": "\"icon_view\""
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
-      "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 3058,
       "length": 10,
       "value": "\"icon_img\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3027,
+      "offset": 3096,
       "length": 12,
       "value": "\"cate_order\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3072,
+      "offset": 3143,
+      "length": 11,
+      "value": "\"icon_view\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3187,
       "length": 12,
       "value": "\"search_use\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3123,
+      "offset": 3238,
       "length": 9,
       "value": "\"top_msg\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3163,
+      "offset": 3278,
       "length": 10,
       "value": "\"cate_use\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3322,
       "length": 9,
       "value": "\"ssm_use\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2627,
+      "offset": 3366,
+      "length": 15,
+      "value": "\"list_type_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3410,
+      "length": 12,
+      "value": "\"cs_btn_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 2736,
       "length": 11,
       "value": "\"list_type\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2692,
+      "offset": 2801,
       "length": 7,
       "value": "\"color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2733,
+      "offset": 2842,
       "length": 16,
       "value": "\"small_bg_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2779,
+      "offset": 2888,
       "length": 12,
       "value": "\"font_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2824,
+      "offset": 2933,
       "length": 18,
       "value": "\"small_font_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2871,
+      "offset": 2980,
       "length": 11,
       "value": "\"btn_color\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2911,
+      "offset": 3020,
       "length": 9,
       "value": "\"imp_chk\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 2950,
-      "length": 11,
-      "value": "\"icon_view\""
-    },
-    {
-      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
-      "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 3058,
       "length": 10,
       "value": "\"icon_img\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3027,
+      "offset": 3096,
       "length": 12,
       "value": "\"cate_order\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3072,
+      "offset": 3143,
+      "length": 11,
+      "value": "\"icon_view\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3187,
       "length": 12,
       "value": "\"search_use\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3123,
+      "offset": 3238,
       "length": 9,
       "value": "\"top_msg\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3163,
+      "offset": 3278,
       "length": 10,
       "value": "\"cate_use\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3322,
       "length": 9,
       "value": "\"ssm_use\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3366,
+      "length": 15,
+      "value": "\"list_type_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3410,
+      "length": 12,
+      "value": "\"cs_btn_use\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
+      "kind": "StringLiteral",
+      "offset": 3510,
       "length": 3,
       "value": "\"L\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3332,
+      "offset": 3538,
       "length": 3,
       "value": "\"F\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3510,
       "length": 3,
       "value": "\"L\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3332,
+      "offset": 3538,
       "length": 3,
       "value": "\"F\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3618,
+      "offset": 3824,
       "length": 13,
       "value": "\"filter_list\""
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/Models\/Settings.swift",
       "kind": "StringLiteral",
-      "offset": 3618,
+      "offset": 3824,
       "length": 13,
       "value": "\"filter_list\""
     },
@@ -5436,6 +5684,13 @@
       "offset": 203,
       "length": 24,
       "value": "\"GreenpOfferwall.FeedDetailViewController\""
+    },
+    {
+      "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/GreenpAuthManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 468,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/adforus_m1\/greenofferwallv3_ios\/GreenpOfferwall\/OfferWallMain\/PageControlView.swift",

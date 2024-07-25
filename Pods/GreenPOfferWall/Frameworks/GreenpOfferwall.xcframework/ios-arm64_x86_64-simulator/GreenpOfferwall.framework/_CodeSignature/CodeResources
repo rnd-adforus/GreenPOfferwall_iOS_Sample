@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		7oDy0SpcWPayFxYoGFQ4ahzkjPU=
+		ZHT5FrMKijDNVpdyPF0ISnABtv0=
 		</data>
 		<key>Headers/GreenpOfferwall-Swift.h</key>
 		<data>
-		6t49BkYE7JlP2In+wDC/0mhEPBo=
+		+ezaiNanxGWAB+11/jMsXa6MtxE=
 		</data>
 		<key>Headers/GreenpOfferwall.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2B9KShDz5z2Rog1r58uJ+7n26co=
+		1aTgphUgYCqk/HNIh8OG/QZlH9s=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5aBtfkBs+qkBzSjudU28qhmOQK0=
+		VW/mCXOpA2CKr42XjTlU6ssw55Y=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uHvbj4TdLfhgxc42OCwRK/8ULPA=
+		ykBQCTcdtQyQ0clnEK7RkkPKhPc=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/j17v4s42dkdigNsKuJy2n2CAcc=
+		ISs/biBYKztJvXCwvwFZvURoxq0=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uHvbj4TdLfhgxc42OCwRK/8ULPA=
+		ykBQCTcdtQyQ0clnEK7RkkPKhPc=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ytntKNlL5taW4q28wbKsBkLIudE=
+		LiKRxeUy3pGwO7yWGCQlXJkZH1E=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5aBtfkBs+qkBzSjudU28qhmOQK0=
+		VW/mCXOpA2CKr42XjTlU6ssw55Y=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		M47MsJYCQzZX+IbnOYqruDX0tH8=
+		ZgSb6tkU9oU5ORRuo9g6vqmAwk0=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vNM6joGhvUJbC0V7KjMKVflU6Ww=
+		8AUY6aX+SEegTm8EDkXDFfHBXOE=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		M47MsJYCQzZX+IbnOYqruDX0tH8=
+		ZgSb6tkU9oU5ORRuo9g6vqmAwk0=
 		</data>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tO4BNMgEfbRmB/ucrlgtXrnYfug=
+		qDKLzi1JURpnMPnjUCo+7tkNkuE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,14 +91,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l3DBRAW3CXpfIE4gFounkVZTm4cwN7RRmNhEnuTMEWw=
+			aFTyO2sQDWSI0b6tfbwUpug39bfotjorYrtkkWjuw0A=
 			</data>
 		</dict>
 		<key>Headers/GreenpOfferwall-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n1vgrVWvwzbcjHbi4OwZ1D/HTzAesdxbHb/m7F8LbaU=
+			Bq+vQp5B/hqOG5vG+ayS/5hluyMHrwElzPOj70rzB0M=
 			</data>
 		</dict>
 		<key>Headers/GreenpOfferwall.h</key>
@@ -112,70 +112,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QkUz1cy5k9RzJM8zvGsAwppMpQvQf7j0lMr5sSblb3Y=
+			9E1H24jwuiqYMtGabsBnXWXYRpBqPUxaXCiZzRZmEDs=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJ3mvnBjYkDdZHlS+8ohLd4FDmRhILBibVjeLtJczn8=
+			sl0xwoNKO3G/zbUQ53tSRfvZCYKiltpnO9PpIKds7ZI=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			01qHIffkddEEbwF77bE5cWUKcycr22p2dUsjqgn+p5o=
+			nphaYGWNQtPXrCRqhE5E647ofZgSrY07zFZzDCp8ago=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zJ3mvnBjYkDdZHlS+8ohLd4FDmRhILBibVjeLtJczn8=
+			sl0xwoNKO3G/zbUQ53tSRfvZCYKiltpnO9PpIKds7ZI=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			esXvMYzwNY6oNHdv092isRyBaqSmVOBNFOdNUsfVjTQ=
+			6CtMNr6LPppOBzbaLeDossW2JsXRFcgegNGBs+mEcxY=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QkUz1cy5k9RzJM8zvGsAwppMpQvQf7j0lMr5sSblb3Y=
+			9E1H24jwuiqYMtGabsBnXWXYRpBqPUxaXCiZzRZmEDs=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AdJnpxMtaJYZnIDaZ++nsduE7hZg998GJtE6pZtrUO0=
+			k/mamyjFfJSrGINJE/ADVWWOuAKmwNAO1fTjlulYG0s=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FA9MKGfRVJD2EabA/O9s1GKBqgGxC8EyVKpe2GaaYJw=
+			Z+MAvgft87nhZd36Ht1yZRAdYE371PH9BBnRCmBLBn0=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AdJnpxMtaJYZnIDaZ++nsduE7hZg998GJtE6pZtrUO0=
+			k/mamyjFfJSrGINJE/ADVWWOuAKmwNAO1fTjlulYG0s=
 			</data>
 		</dict>
 		<key>Modules/GreenpOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uYt/6Bvq50xYQMFR7ygjC9CcCYRpkN2J6Ix74L9r+SY=
+			y7MgsD/2BJwjL3k6nSNcJuo+3rp/M1tbKULkCSij3d4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
