@@ -1,6 +1,6 @@
 ## GreenPOfferwall_3v_iOS
 
-## Version 3.3.0
+## Version 3.4.0
 - Swift version 5.8
 - Minimum iOS version 14.0
   
