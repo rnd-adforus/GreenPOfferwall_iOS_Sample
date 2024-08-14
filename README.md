@@ -21,7 +21,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.3.0.0'
+  pod 'GreenPOfferWallExs', '3.4.0.0'
 end
 
 post_install do |pi|
@@ -302,6 +302,13 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+
+### 3.4.0.0
+- 개인정보동의 팝업 관련 UI가 그린피 어드민에서 컨트롤되도록 설정 지원
+- iOS 플랫폼 형식에 맞지 않는 AppCode로 초기화 시도 시 실패 되도록 수정
+- 기타 데이터 수집과 관련한 버그 픽스
+- UI 표시 여부와 관련된 버그 픽스
+
 ### 3.3.0.0
 - 광고 표시 유형 리스트/피드형 버튼, 문의하기 버튼 그린피 어드민에서 ON/OFF 되도록 지원
 - 광고 초기화 델리게이트 GreenPDelegate의 콜백 함수 greenPSettingsDidEnd에 초기화 성공 여부에 대한 파라미터를 지원
