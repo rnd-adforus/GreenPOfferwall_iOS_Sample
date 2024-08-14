@@ -1,10 +1,9 @@
 platform :ios, '14.0'
-source 'https://github.com/SungEunAdforus/CommonSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.3.0.0'
+  pod 'GreenPOfferWallExs', '3.4.0.0'
   target 'GreenpOfferwallSampleTests' do
     inherit! :search_paths
     # Pods for testing

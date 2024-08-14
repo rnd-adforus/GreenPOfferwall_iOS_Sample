@@ -18,7 +18,7 @@
                BlueprintIdentifier = "594858492BDB5D6700DFE317"
                BuildableName = "GreenpOfferwallSample.app"
                BlueprintName = "GreenpOfferwallSample"
-               ReferencedContainer = "container:GreenPOfferWallSample.xcodeproj">
+               ReferencedContainer = "container:GreenpOfferwallSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,7 +38,7 @@
                BlueprintIdentifier = "5948585F2BDB5D6800DFE317"
                BuildableName = "GreenpOfferwallSampleTests.xctest"
                BlueprintName = "GreenpOfferwallSampleTests"
-               ReferencedContainer = "container:GreenPOfferWallSample.xcodeproj">
+               ReferencedContainer = "container:GreenpOfferwallSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "594858692BDB5D6800DFE317"
                BuildableName = "GreenpOfferwallSampleUITests.xctest"
                BlueprintName = "GreenpOfferwallSampleUITests"
-               ReferencedContainer = "container:GreenPOfferWallSample.xcodeproj">
+               ReferencedContainer = "container:GreenpOfferwallSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,7 +71,7 @@
             BlueprintIdentifier = "594858492BDB5D6700DFE317"
             BuildableName = "GreenpOfferwallSample.app"
             BlueprintName = "GreenpOfferwallSample"
-            ReferencedContainer = "container:GreenPOfferWallSample.xcodeproj">
+            ReferencedContainer = "container:GreenpOfferwallSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -88,7 +88,7 @@
             BlueprintIdentifier = "594858492BDB5D6700DFE317"
             BuildableName = "GreenpOfferwallSample.app"
             BlueprintName = "GreenpOfferwallSample"
-            ReferencedContainer = "container:GreenPOfferWallSample.xcodeproj">
+            ReferencedContainer = "container:GreenpOfferwallSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
