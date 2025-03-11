@@ -2,7 +2,7 @@
 //  GreenpOfferwall.h
 //  GreenpOfferwall
 //
-//  Created by adforus_m1 on 3/26/24.
+//  Created by adforus on 3/26/24.
 //
 
 #import <Foundation/Foundation.h>
