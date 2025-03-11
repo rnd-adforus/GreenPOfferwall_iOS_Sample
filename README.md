@@ -1,5 +1,11 @@
 ## GreenPOfferwall_Extends_iOS
 
+## 3.5.0 이상 Migration 안내
+### # [!3.5.0]이상 부터는 별도의 SDK로 분리되었던 GreenpOfferwall SDK iOS (v3) For Extend가
+### # GreenpOfferwall SDK iOS (v3) 와 함께 Dependency 추가 의존성(UAdKit)으로 옵셔널하게 적용됩니다.!
+
+**[3.5.0v 이상 신규 버전 가이드 이동하기](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample?tab=readme-ov-file#greenpofferwall_3v_ios)**
+
 ## Version 3.4.0.0
 - Swift version 5.8
 - Minimum iOS version 14.0
