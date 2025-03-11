@@ -1,7 +1,7 @@
 ## GreenPOfferwall_3v_iOS
 
-## Version 3.4.0
-- Swift version 5.8
+## Version 3.5.0
+- Swift version 6.0
 - Minimum iOS version 14.0
   
 ## Installation
@@ -14,7 +14,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.4.0'
+  pod 'GreenPOfferWall', '3.5.0'
+  #  pod 'UAdKit', '1.1.0' #Optional
 end
 
 post_install do |pi|
@@ -72,6 +73,15 @@ extension ViewController : GreenPDelegate {
 
 
 ## Changes
+### 3.5.0 
+- Swift6 지원
+- 멀티 리워드 광고 타입 지원
+- 다크모드 지원, 버튼 UI, 광고 리스트 표시 형식 등 디자인 변경 
+- 초기화 실패 사유로 App Code, User ID를 빈값을 사용 하는 경우를 추가
+- 메뉴 버튼 이름이 그린피 Admin 페이지 설정으로 변경, 통합 되는 기능 추가
+- 오퍼월 내 구글 광고가 UAdKit SDK 의존성을 추가하여 적용될 수 있도록 변경
+- Alamofire, SnapKit, Kingfisher 라이브러리 의존성 제거
+
 ### 3.4.0 
 - 개인정보동의 팝업 관련 UI가 그린피 어드민에서 컨트롤되도록 설정 지원
 - iOS 플랫폼 형식에 맞지 않는 AppCode로 초기화 시도 시 실패 되도록 수정
