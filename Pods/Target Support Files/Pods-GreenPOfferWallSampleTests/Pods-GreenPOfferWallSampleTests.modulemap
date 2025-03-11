@@ -1,5 +1,5 @@
-framework module Pods_GreenPOfferWallSampleTests {
-  umbrella header "Pods-GreenPOfferWallSampleTests-umbrella.h"
+framework module Pods_GreenpOfferwallSampleTests {
+  umbrella header "Pods-GreenpOfferwallSampleTests-umbrella.h"
 
   export *
   module * { export * }

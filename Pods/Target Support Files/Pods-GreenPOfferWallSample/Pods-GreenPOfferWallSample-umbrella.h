@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_GreenPOfferWallSampleVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_GreenPOfferWallSampleVersionString[];
+FOUNDATION_EXPORT double Pods_GreenpOfferwallSampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_GreenpOfferwallSampleVersionString[];
 

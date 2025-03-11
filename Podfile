@@ -1,18 +1,24 @@
 platform :ios, '14.0'
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'GreenPOfferWallSample' do
-  # Comment the next line if you don't want to use dynamic frameworks
+target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.5.0'
-  
-  target 'GreenPOfferWallSampleTests' do
+  pod 'GreenPOfferWall', '3.4.0'
+  target 'GreenpOfferwallSampleTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'GreenPOfferWallSampleUITests' do
+  target 'GreenpOfferwallSampleUITests' do
     # Pods for testing
   end
 
+end
+
+post_install do |pi|
+  pi.pods_project.targets.each do |t|
+    t.build_configurations.each do |config|
+      config.build_settings[‘BUILD_LIBRARY_FOR_DISTRIBUTION’] = ‘YES’
+    end
+  end
 end

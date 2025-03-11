@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_GreenPOfferWallSample_GreenPOfferWallSampleUITests : NSObject
+@interface PodsDummy_Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests : NSObject
 @end
-@implementation PodsDummy_Pods_GreenPOfferWallSample_GreenPOfferWallSampleUITests
+@implementation PodsDummy_Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests
 @end

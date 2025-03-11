@@ -1,15 +1,29 @@
-## GreenPFramework_3v_iOS
+## GreenPOfferwall_3v_iOS
 
-## Version 3.1.0
+## Version 3.4.0
 - Swift version 5.8
 - Minimum iOS version 14.0
   
 ## Installation
 3.1.0 이상 부터 Cocoapods으로 지원됩니다. 다음과 같이, Podfile을 작성하시어 적용하여 주기실 바랍니다.  
-!GreenPFramework Changed PackageManager  
+!GreenPOfferwall Changed PackageManager  
 ```
 //Podfile
- pod 'GreenPOfferWall', '3.1.0'
+platform :ios, '14.0'
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Runner' do
+  use_frameworks!
+  pod 'GreenPOfferWall', '3.4.0'
+end
+
+post_install do |pi|
+  pi.pods_project.targets.each do |t|
+    t.build_configurations.each do |config|
+      config.build_settings[‘BUILD_LIBRARY_FOR_DISTRIBUTION’] = ‘YES’
+    end
+  end
+end
 ```
 ## Info.plist
 광고 추적 권한<br>
@@ -19,20 +33,20 @@
 
 ## Initialize
 ```swift
-import GreenPFramework
+import GreenpOfferwall
 
 private lazy var greenP = GreenPSettings(delegate: self)
 
 /// 오퍼월 초기화 및 사용자 등록
 greenP.set(appCode: "Your Code", userID: "user ID") /// 화면에 오퍼월 충전소를 호출하는 함수.
-    greenp.setAuthMessage(msg: "개인화된 광고 제공을 위해 추적 허용 권한을 요청합니다.") // 광고 추적 거부시 권한 요청 팝업 문구 커스텀 용
+greenp.setAuthMessage(msg: "개인화된 광고 제공을 위해 추적 허용 권한을 요청합니다.") // 광고 추적 거부시 권한 요청 팝업 문구 커스텀 용
 
 /// 버튼을 누를 때 호출
 greenP.show(on: self)
 
 
 extension ViewController : GreenPDelegate {
-    func greenPSettingsDidEnd(with message: String) {
+    func greenPSettingsDidEnd(with message: String, result: Bool) {
       // 성공 & 실패 시 메세지 노출
     }
 }
@@ -58,8 +72,35 @@ extension ViewController : GreenPDelegate {
 
 
 ## Changes
+### 3.4.0 
+- 개인정보동의 팝업 관련 UI가 그린피 어드민에서 컨트롤되도록 설정 지원
+- iOS 플랫폼 형식에 맞지 않는 AppCode로 초기화 시도 시 실패 되도록 수정
+- 기타 데이터 수집과 관련한 버그 픽스
+- UI 표시 여부와 관련된 버그 픽스
+
+### 3.3.0
+- 광고 표시 유형 리스트/피드형 버튼, 문의하기 버튼 그린피 어드민에서 ON/OFF 되도록 지원
+- 개인정보동의 팝업이 그린피 오퍼월 UI 팝업 이후 표시 되도록 수정
+- ATT 동의 여부에 상관없이 그린피 오퍼월 UI가 팝업 되도록 수정. (단, 미 동의 시 광고 목록에 제한이 있음)
+- 그린피 오퍼월 아이콘 ON/OFF 기능과 관련된 버그 픽스
+
+### 3.2.1
+- 그린피 어드민에 버전 정보 표시 기능 적용
+
+### 3.2.0
+- 광고 검색 기능 그린피 어드민으로 ON/OFF 되도록 수정
+- 클릭 체류형 광고타입 적용
+- 대메뉴, 소메뉴, 프로필 입력 UI 그린피 어드민으로 ON/OFF 되도록 수정
+- 광고 표시 유형 리스트/피드형 초기 설정이 그린피 어드민 설정을 따르도록 수정
+- 마이페이지의 참여 광고 목록 정렬 순서 수정
+- 대매뉴 화면 전환 버그 픽스
+
+### 3.1.1
+- 메뉴 버튼 UI 수정 및 버그 픽스
+
 ### 3.1.0
 - 광고 UI 표시 피드형, 리스트형 전환 기능 추가
+- Privacy Manifest - required reason API 적용
 - 광고 리스트 검색기능 적용
 - 프로필 작성 기능 추가
 - 보상 표시 단위 소숫점 이하 적용 기능 추가
@@ -67,4 +108,5 @@ extension ViewController : GreenPDelegate {
 - 광고 리스트 페이징 버그 및 UI 픽스
 
 ## support for other platforms
-1. [Flutter](https://github.com/rnd-adforus/GreenpSDK_iOS/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
+1. [Flutter](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
+2. [ReactNative](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/ReactNative-GreenpOfferwall-SDK-%EA%B0%80%EC%9D%B4%EB%93%9C)
