@@ -4,27 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire-Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GreenPOfferWall.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Kingfisher-Kingfisher.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Kingfisher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -40,16 +20,6 @@
 			<false/>
 		</dict>
 		<key>Pods-GreenpOfferwallSampleTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SnapKit-SnapKit_Privacy.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SnapKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

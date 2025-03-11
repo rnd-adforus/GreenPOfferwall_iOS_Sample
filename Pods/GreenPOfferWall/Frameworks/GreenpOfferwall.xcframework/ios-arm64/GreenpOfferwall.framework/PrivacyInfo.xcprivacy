@@ -13,6 +13,7 @@
 			<false/>
 			<key>NSPrivacyCollectedDataTypePurposes</key>
 			<array>
+				<string>NSPrivacyCollectedDataTypePurposeThirdPartyAdvertising</string>
 				<string>NSPrivacyCollectedDataTypePurposeDeveloperAdvertising</string>
 			</array>
 		</dict>
@@ -25,6 +26,7 @@
 			<true/>
 			<key>NSPrivacyCollectedDataTypePurposes</key>
 			<array>
+				<string>NSPrivacyCollectedDataTypePurposeThirdPartyAdvertising</string>
 				<string>NSPrivacyCollectedDataTypePurposeDeveloperAdvertising</string>
 			</array>
 		</dict>
