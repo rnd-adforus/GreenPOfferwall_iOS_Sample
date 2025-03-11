@@ -195,6 +195,7 @@
 				594858482BDB5D6700DFE317 /* Resources */,
 				5986FDB42BE3242900B00907 /* Embed Frameworks */,
 				646D591B323495BD91DA2589 /* [CP] Embed Pods Frameworks */,
+				82C43ED726D6265B342A4651 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +234,7 @@
 				594858672BDB5D6800DFE317 /* Frameworks */,
 				594858682BDB5D6800DFE317 /* Resources */,
 				C7B53EEC80004B47F6800E5B /* [CP] Embed Pods Frameworks */,
+				F3E2BA5C21B765F17FEA65BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -398,6 +400,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		82C43ED726D6265B342A4651 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample/Pods-GreenpOfferwallSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C7B53EEC80004B47F6800E5B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,6 +432,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E2BA5C21B765F17FEA65BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -668,6 +704,8 @@
 				OTHER_LDFLAGS = (
 					"-framework",
 					"\"GreenpOfferwall\"",
+					"-framework",
+					"\"UAdFramework\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = adforus.GreenpOfferwallSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
