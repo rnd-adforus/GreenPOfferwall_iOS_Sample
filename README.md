@@ -39,7 +39,7 @@ import GreenpOfferwall
 private lazy var greenP = GreenPSettings(delegate: self)
 
 /// 오퍼월 초기화 및 사용자 등록
-greenP.set(appCode: "Your Code", userID: "user ID") /// 화면에 오퍼월 충전소를 호출하는 함수.
+greenP.set(appCode: "Your App Code", userID: "user ID") /// 화면에 오퍼월 충전소를 호출하는 함수.
 greenp.setAuthMessage(msg: "개인화된 광고 제공을 위해 추적 허용 권한을 요청합니다.") // 광고 추적 거부시 권한 요청 팝업 문구 커스텀 용
 
 /// 버튼을 누를 때 호출
