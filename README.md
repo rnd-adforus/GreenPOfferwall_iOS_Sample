@@ -6,6 +6,9 @@
 
 **[3.5.0v 이상 신규 버전 가이드 이동하기](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample?tab=readme-ov-file#greenpofferwall_3v_ios)**
 
+<details>
+<summary>이전 버전 가이드 보기</summary>
+
 ## Version 3.4.0.0
 - Swift version 5.8
 - Minimum iOS version 14.0
@@ -342,3 +345,6 @@ extension ViewController : GreenPDelegate {
 ## support for other platforms
 1. [Flutter](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample/wiki/Flutter-GreenpOfferwall-forExtends-SDK-for-%08iOS)
 2. [ReactNative](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/ReactNative-GreenpOfferwall-forExtends-SDK-%EA%B0%80%EC%9D%B4%EB%93%9C)
+
+
+</details>
