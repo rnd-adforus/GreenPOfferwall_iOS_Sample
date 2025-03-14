@@ -31,7 +31,19 @@ end
 <img width="1234" alt="스크린샷 2023-11-21 오후 9 05 22" src="https://i.imgur.com/liFxkik.png">
 <br>http 통신 예외처리<br>
 <img width="803" alt="스크린샷 2023-11-21 오후 9 08 45" src="https://i.imgur.com/l1k18ai.png">
+<br>
 
+### (Optional)Google Admob GADApllicationIdentifer 작성
+<details>
+<summary>더 보기</summary>
+오퍼월 내에 AdMob 광고를 표시하려면, Info.split에 GADApllicationIdentifer키값을 추가해야 합니다. <br>
+앱 마다 고유한 GADApllicationIdentifer의 값은 애드포러스 플랫폼 3팀에 문의하여주세요. <br>
+
+<img width="1000" alt="app_id" src="https://i.imgur.com/acKz0Uf.png">
+
+</details>
+
+<br>
 ## Initialize
 ```swift
 import GreenpOfferwall
@@ -57,20 +69,6 @@ extension ViewController : GreenPDelegate {
 1. 각각의 유저별 고유한 값을 이용해야 합니다.
 2. 개인정보 및 IDFA는 사용할 수 없습니다. ( 암호화 후 사용 가능 )
 3. 한글, 특수문자, 공백은 반드시 URL 인코딩 후 사용하셔야 합니다.
-
-<br>
-
-## (Optional)Google Admob GADApllicationIdentifer 작성
-<details>
-<summary>더 보기</summary>
-오퍼월 내에 AdMob 광고를 표시하려면, Info.split에 GADApllicationIdentifer키값을 추가해야 합니다. <br>
-앱 마다 고유한 GADApllicationIdentifer의 값은 애드포러스 플랫폼 3팀에 문의하여주세요. <br>
-
-<img width="1000" alt="app_id" src="https://i.imgur.com/acKz0Uf.png">
-
-</details>
-
-<br>
 
 ## Callback Parameter  
 > 광고 참여가 정상적으로 완료된 경우, 매체사에서 등록 하신 콜백 URL로 암호화키를 전송해 드립니다.
