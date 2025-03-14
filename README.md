@@ -44,6 +44,7 @@ end
 </details>
 
 <br>
+
 ## Initialize
 ```swift
 import GreenpOfferwall
