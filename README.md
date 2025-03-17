@@ -1,6 +1,6 @@
 ## GreenPOfferwall_3v_iOS
 
-## Version 3.5.0
+## Version 3.5.1
 - Swift version 6.0
 - Minimum iOS version 14.0
   
@@ -14,8 +14,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.5.0'
-  #  pod 'UAdKit', '1.1.0' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
+  pod 'GreenPOfferWall', '3.5.1'
+  #  pod 'UAdKit', '1.2.0' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
 end
 
 post_install do |pi|
@@ -43,6 +43,48 @@ end
 
 </details>
 
+<br>
+
+## BuildSettings
+GreenPOffewall SDK는 Dynamic Framework로 라이브러리 파일이 런타임으로 로딩 되도록 하는 방식을 취하고 있습니다. Dynamic Framework는 SDK를 의존하여 늘어나는 앱 용량을 대폭 축소합니다. 다음의 RUN_PATH, LINK_FRAMEWORK 설정을 추가하여주세요.
+
+### RUN_PATH 
+Dynamic Framework를 로딩할 경로를 설정합니다 . TARGETS > BuildSettings > Linking - General > Runpath Search Paths의 값 확인하여 동일한 path가 없다면 추가해 주세요. 
+<table>
+<th> copy values </th>
+<th>Build Settings Example</th>
+<tr>
+<td>
+<code>/usr/lib/swift</code> <br>
+<code>@executable_path/Frameworks</code><br>
+<code>@loader_path/Frameworks</code>
+</td>
+<td>
+<img alt="run_path" src="https://i.imgur.com/4sncUYS.png">
+</td>
+</tr>
+</table>
+
+
+### LINK_FRAMEWORK
+Dynamic Framework를 링킹할 경로를 설정합니다 .  TARGETS > BuildSettings > Linking - General > Other Linker Flags의 값 확인하여 동일한  flag가 없다면 추가해 주세요. 
+
+<table>
+<th> copy values </th>
+<th>Build Settings Example</th>
+<tr>
+<td>
+<code>-framework
+"GreenpOfferwall"</code> <br><br>
+<small><small>Optional - 오퍼월 내 구글 광고 사용시에만 추가 적용</small></small> <br>
+<code>-framework
+"UAdFramework"</code><br>
+</td>
+<td>
+<img alt="run_path" src="https://i.imgur.com/5iVEko3.png">
+</td>
+</tr>
+</table>
 <br>
 
 ## Initialize
@@ -86,6 +128,10 @@ extension ViewController : GreenPDelegate {
 
 
 ## Changes
+### 3.5.1
+- 리워드 포인트 색상 그린피 어드민에서 설정하는 기능 추가
+- GADApllicationIdentifer 확인 기능 내부 컨트롤 기능 추가
+
 ### 3.5.0 
 - Swift6 지원
 - 멀티 리워드 광고 타입 지원
