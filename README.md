@@ -130,7 +130,6 @@ extension ViewController : GreenPDelegate {
 ### 3.5.2
 - 오퍼월 팝업 관련 버그 픽스
 
-## Changes
 ### 3.5.1
 - 리워드 포인트 색상 그린피 어드민에서 설정하는 기능 추가
 - GADApllicationIdentifer 확인 기능 내부 컨트롤 기능 추가
