@@ -37,7 +37,10 @@ class ViewController: UIViewController {
 
 extension ViewController : GreenPDelegate {
     func greenPSettingsDidEnd(with message: String) {
-        resultLabel.text = message
+        Task { @MainActor in
+            resultLabel.text = message
+        }
+        
     }
 }
 
