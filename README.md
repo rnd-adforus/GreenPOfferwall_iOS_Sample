@@ -1,6 +1,6 @@
 ## GreenPOfferwall_3v_iOS
 
-## Version 3.5.2
+## Version 3.5.3
 - Swift version 6.0
 - Minimum iOS version 14.0
   
@@ -14,7 +14,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.5.2'
+  pod 'GreenPOfferWall', '3.5.3'
   #  pod 'UAdKit', '1.2.0' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
 end
 
@@ -30,7 +30,7 @@ end
 광고 추적 권한<br>
 <img width="1234" alt="스크린샷 2023-11-21 오후 9 05 22" src="https://i.imgur.com/liFxkik.png">
 <br>http 통신 예외처리<br>
-<img width="803" alt="스크린샷 2023-11-21 오후 9 08 45" src="https://i.imgur.com/l1k18ai.png">
+<img width="803" alt="스크린샷 2023-11-21 오후 9 08 45" src="https://i.imgur.com/l1k18ai.png">
 <br>
 
 ### (Optional)Google Admob GADApllicationIdentifer 작성
@@ -127,6 +127,9 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 3.5.3
+- Flutter.framework Privacy Manifest 적용 버전으로 업데이트 
+
 ### 3.5.2
 - 오퍼월 팝업 관련 버그 픽스
 
