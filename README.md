@@ -1,6 +1,6 @@
-## GreenPOfferwall_3v_iOS
+## GreenPOfferwall_(3v~4v)_iOS
 
-## Version 3.5.3
+## Version 4.0.0
 - Swift version 6.0
 - Minimum iOS version 14.0
   
@@ -14,8 +14,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '3.5.3'
-  #  pod 'UAdKit', '1.2.0' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
+  pod 'GreenPOfferWall', '4.0.0'
+  #  pod 'UAdKit', '1.3.1' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
 end
 
 post_install do |pi|
@@ -127,6 +127,10 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 4.0.0
+- 4v 전용 커스텀 디자인 적용
+- 그린피 이벤트 기능 지원
+
 ### 3.5.3
 - Flutter.framework Privacy Manifest 적용 버전으로 업데이트 
 
