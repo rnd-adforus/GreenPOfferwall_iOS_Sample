@@ -3,9 +3,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.0.0'
+  pod 'GreenPOfferWall', '4.0.1'
 #  pod 'UAdKit', '1.3.1' #Optional
-#  pod 'Google-Mobile-Ads-SDK', '12.3.0'
   target 'GreenpOfferwallSampleTests' do
     inherit! :search_paths
     # Pods for testing

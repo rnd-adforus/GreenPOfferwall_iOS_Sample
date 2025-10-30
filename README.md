@@ -14,7 +14,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.0.0'
+  pod 'GreenPOfferWall', '4.0.1'
   #  pod 'UAdKit', '1.3.1' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
 end
 
@@ -127,6 +127,10 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 4.0.1
+- 마이페이지 내 표시 오류 수정
+- 그린피 이벤트 버그 픽스
+
 ### 4.0.0
 - 4v 전용 커스텀 디자인 적용
 - 그린피 이벤트 기능 지원
