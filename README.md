@@ -65,28 +65,6 @@ Dynamic Framework를 로딩할 경로를 설정합니다 . TARGETS > BuildSettin
 </tr>
 </table>
 
-
-### LINK_FRAMEWORK
-Dynamic Framework를 링킹할 경로를 설정합니다 .  TARGETS > BuildSettings > Linking - General > Other Linker Flags의 값 확인하여 동일한  flag가 없다면 추가해 주세요. 
-
-<table>
-<th> copy values </th>
-<th>Build Settings Example</th>
-<tr>
-<td>
-<code>-framework
-"GreenpOfferwall"</code> <br><br>
-<small><small>Optional - 오퍼월 내 구글 광고 사용시에만 추가 적용</small></small> <br>
-<code>-framework
-"UAdFramework"</code><br>
-</td>
-<td>
-<img alt="run_path" src="https://i.imgur.com/5iVEko3.png">
-</td>
-</tr>
-</table>
-<br>
-
 ## Initialize
 ```swift
 import GreenpOfferwall
