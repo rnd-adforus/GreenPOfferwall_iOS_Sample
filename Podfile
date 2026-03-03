@@ -3,8 +3,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.0.1'
-#  pod 'UAdKit', '1.3.1' #Optional
+  pod 'GreenPOfferWall', '4.1.0'
+  pod 'UAdKit', '2.0.3' #Optional
   target 'GreenpOfferwallSampleTests' do
     inherit! :search_paths
     # Pods for testing

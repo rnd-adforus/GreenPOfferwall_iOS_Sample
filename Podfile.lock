@@ -1,16 +1,43 @@
 PODS:
-  - GreenPOfferWall (4.0.1)
+  - Ads-Global (7.8.5.5):
+    - Ads-Global/BUAdSDK (= 7.8.5.5)
+  - Ads-Global/BUAdSDK (7.8.5.5):
+    - Ads-Global/PangleSDK
+    - Ads-Global/TikTokBusinessSDK
+  - Ads-Global/PangleSDK (7.8.5.5)
+  - Ads-Global/TikTokBusinessSDK (7.8.5.5)
+  - Google-Mobile-Ads-SDK (12.14.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleMobileAdsMediationPangle (7.8.5.5.0):
+    - Ads-Global (= 7.8.5.5)
+    - Google-Mobile-Ads-SDK (~> 12.0)
+  - GoogleUserMessagingPlatform (3.1.0)
+  - GreenPOfferWall (4.1.0)
+  - UAdKit (2.0.3):
+    - Google-Mobile-Ads-SDK (< 12.14.1, >= 12.2.0)
+    - GoogleMobileAdsMediationPangle (< 7.8.5.5.1, >= 6.4.1.2.1)
 
 DEPENDENCIES:
-  - GreenPOfferWall (= 4.0.1)
+  - GreenPOfferWall (= 4.1.0)
+  - UAdKit (= 2.0.3)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Ads-Global
+    - Google-Mobile-Ads-SDK
+    - GoogleMobileAdsMediationPangle
+    - GoogleUserMessagingPlatform
     - GreenPOfferWall
+    - UAdKit
 
 SPEC CHECKSUMS:
-  GreenPOfferWall: 25d593f4443e27575796832703c590c8b95461c2
+  Ads-Global: c9bbbcad7464172eb7005a4ad3e0d24b819de0a7
+  Google-Mobile-Ads-SDK: 4534fd2dfcd3f705c5485a6633c5188d03d4eed2
+  GoogleMobileAdsMediationPangle: 9c9c8cef109faf23dccf7412bda43d7b41063006
+  GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
+  GreenPOfferWall: 81ac0d202c95b74c43b5fe794fff8f5d1b968c46
+  UAdKit: 66a3a61abbf1a42e294f172616eb51fe041f022b
 
-PODFILE CHECKSUM: 1dd2f8512aba704f29680c1986952b7fc00cc9af
+PODFILE CHECKSUM: 4d7685721b34cf6fda2a590237612f7c4ce2ceaa
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

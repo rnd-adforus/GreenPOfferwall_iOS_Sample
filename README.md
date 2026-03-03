@@ -1,6 +1,6 @@
 ## GreenPOfferwall_(3v~4v)_iOS
 
-## Version 4.0.1
+## Version 4.1.0
 - Swift version 6.0
 - Minimum iOS version 14.0
   
@@ -14,8 +14,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.0.1'
-  #  pod 'UAdKit', '1.3.1' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
+  pod 'GreenPOfferWall', '4.1.0'
+  #  pod 'UAdKit', '2.0.3' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
 end
 
 post_install do |pi|
@@ -127,6 +127,10 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 4.1.0
+- 글로벌 기능 지원 (다국어, 국가별 캠페인 지원)
+- 설치형 광고 지원
+
 ### 4.0.1
 - 마이페이지 내 표시 오류 수정
 - 그린피 이벤트 버그 픽스
