@@ -5,8 +5,11 @@
 - Minimum iOS version 14.0
   
 ## Installation
-3.1.0 이상 부터 Cocoapods으로 지원됩니다. 다음과 같이, Podfile을 작성하시어 적용하여 주기실 바랍니다.  
-!GreenPOfferwall Changed PackageManager  
+4.1.0 이상 부터 Swift Package Manager이 추가 지원됩니다. 다음과 같이, <br>
+CocoaPods와 Swift Package Mananger 중 1개를 채택하시어 의존성을 추가하여 주세요.<br>
+
+<b>[CocoaPods]</b><br>
+Podfile을 작성하시어 적용하여 주기실 바랍니다.  
 ```
 //Podfile
 platform :ios, '14.0'
@@ -26,6 +29,16 @@ post_install do |pi|
   end
 end
 ```
+<br>
+
+OR <br>
+
+<b>[Swift Package Mananger]</b> <br>
+Xcode 네비게이션 메뉴에서 File > Add Package Dependencies 탭으로 이동하고 다음의 경로를 검색하여 의존성을 추가하여 주세요.
+```
+https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm.git
+```
+
 ## Info.plist
 광고 추적 권한<br>
 <img width="1234" alt="스크린샷 2023-11-21 오후 9 05 22" src="https://i.imgur.com/liFxkik.png">
