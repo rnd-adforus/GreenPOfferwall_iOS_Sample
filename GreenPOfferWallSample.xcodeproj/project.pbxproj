@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BD3A73DA099C9F73ECEF2EB /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BBC01C83C2882412265E97 /* Pods_GreenpOfferwallSample.framework */; };
 		5948584E2BDB5D6700DFE317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948584D2BDB5D6700DFE317 /* AppDelegate.swift */; };
 		594858502BDB5D6700DFE317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948584F2BDB5D6700DFE317 /* SceneDelegate.swift */; };
 		594858522BDB5D6700DFE317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858512BDB5D6700DFE317 /* ViewController.swift */; };
@@ -17,6 +16,8 @@
 		594858652BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858642BDB5D6800DFE317 /* GreenpOfferwallSampleTests.swift */; };
 		5948586F2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948586E2BDB5D6800DFE317 /* GreenpOfferwallSampleUITests.swift */; };
 		594858712BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858702BDB5D6800DFE317 /* GreenpOfferwallSampleUITestsLaunchTests.swift */; };
+		599E2F392F73982100340FE4 /* Pods_GreenpOfferwallSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BBC01C83C2882412265E97 /* Pods_GreenpOfferwallSample.framework */; };
+		599E2F3A2F73982100340FE4 /* Pods_GreenpOfferwallSample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0BBC01C83C2882412265E97 /* Pods_GreenpOfferwallSample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7AED715409BE92C2BD71460B /* Pods_GreenpOfferwallSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1528B3B2BFDDDAAA2D70DA /* Pods_GreenpOfferwallSampleTests.framework */; };
 		F9AD77F13B4BC091A02670DC /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D043F35A2AF591CBED0D505A /* Pods_GreenpOfferwallSample_GreenpOfferwallSampleUITests.framework */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				599E2F3A2F73982100340FE4 /* Pods_GreenpOfferwallSample.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BD3A73DA099C9F73ECEF2EB /* Pods_GreenpOfferwallSample.framework in Frameworks */,
+				599E2F392F73982100340FE4 /* Pods_GreenpOfferwallSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

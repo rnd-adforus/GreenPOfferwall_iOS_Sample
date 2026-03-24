@@ -3,8 +3,12 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.1.0'
-  pod 'UAdKit', '2.0.3' #Optional
+  pod 'GreenPOfferWall', '4.1.0' #Required
+  pod 'UAdKit', '2.5.0' #Optional (Admob)
+  
+  pod 'UPanKit/Adapters/Admob', '1.5.1' #Optional (Pangle + Admob Adpater Pangle)
+  # pod 'UPanKit', '1.5.1' #Optional (Pangle)
+  pod 'CubeXKit', '1.1.0' #Optional (Adforus RTB)
   target 'GreenpOfferwallSampleTests' do
     inherit! :search_paths
     # Pods for testing

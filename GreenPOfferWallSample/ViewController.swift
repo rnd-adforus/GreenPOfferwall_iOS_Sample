@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     @IBAction func didTapRegistBtn(_ sender: Any) {
         let userID = idTextField.text!
-        greenp.set(appCode: "B8PcNMrpS7", userID: userID)
+        greenp.set(appCode: "99WXq9XbJA", userID: userID)
     }
     
     @IBAction func show(_ sender: Any) {
