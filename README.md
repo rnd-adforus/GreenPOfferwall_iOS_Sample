@@ -18,7 +18,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'Runner' do
   use_frameworks!
   pod 'GreenPOfferWall', '4.1.0'
-  #  pod 'UAdKit', '2.0.3' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
+  #  pod 'UAdKit', '2.1.1' #Optional - 오퍼월 내 구글 광고를 사용하시는 경우 추가해주세요.
 end
 
 post_install do |pi|
