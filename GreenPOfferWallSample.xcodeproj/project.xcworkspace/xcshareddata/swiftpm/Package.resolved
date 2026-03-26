@@ -1,5 +1,5 @@
 {
-  "originHash" : "946869ff267feda98c5c01d7d02dc6992e15a8098dc360d6f7695ec24dcea842",
+  "originHash" : "3a3d5185e8b555219490a77168f630dbbc9cd3f8194dd8832a8eb0cd25fb8f4f",
   "pins" : [
     {
       "identity" : "adsglobalpackage",
@@ -11,12 +11,21 @@
       }
     },
     {
+      "identity" : "cubid-ios-sdk-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rnd-adforus/cubid-ios-sdk-spm.git",
+      "state" : {
+        "revision" : "f6d3c590451c13c1b3950b0c866b0f30213f932a",
+        "version" : "1.2.1"
+      }
+    },
+    {
       "identity" : "cubid-mediation-admob-ios-sdk-spm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm",
       "state" : {
-        "revision" : "4637709ee7dc31b21daebe2d5ce6220403b1aea4",
-        "version" : "2.5.0"
+        "revision" : "f72e777107bb8fa55cdef651574f712ca9187976",
+        "version" : "2.5.1"
       }
     },
     {
@@ -24,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm",
       "state" : {
-        "revision" : "4060aab37a6a95c559395c440b2f30ee6f3e21e4",
-        "version" : "1.1.1"
+        "revision" : "c5b70b2a7e2fbc783d45ce032eb6fa7473220a51",
+        "version" : "1.1.2"
       }
     },
     {
@@ -34,7 +43,7 @@
       "location" : "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm",
       "state" : {
         "revision" : "b290a6e0270006c6e31ebc4fb4ec75765e6fb1bd",
-        "version" : "1.5.0"
+        "version" : "1.5.1"
       }
     },
     {
@@ -60,8 +69,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
       "state" : {
-        "revision" : "4458cfaeb502801c779dbb7fbd0121d198628f52",
-        "version" : "13.1.0"
+        "revision" : "1a1a5ee5563b8e9ef57ba82c4a570e2e47078dc1",
+        "version" : "13.0.0"
       }
     },
     {
