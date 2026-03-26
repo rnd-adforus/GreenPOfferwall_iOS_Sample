@@ -1,0 +1,44 @@
+name: Sync README to All Branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+
+jobs:
+  sync-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Get list of branches
+        id: get_branches
+        run: |
+          # 원격 브랜치 목록을 가져와서 main을 제외한 리스트 생성
+          BRANCHES=$(git branch -r | grep -v '\->' | grep -v 'origin/main' | sed 's/origin\///g' | xargs)
+          echo "branches=$BRANCHES" >> $GITHUB_OUTPUT
+
+      - name: Sync README to other branches
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          for branch in ${{ steps.get_branches.outputs.branches }}; do
+            echo "Syncing README to $branch..."
+            git checkout $branch
+            git checkout main -- README.md
+            
+            # 변경사항이 있는지 확인 후 커밋/푸시
+            if [[ -n $(git status -s) ]]; then
+              git add README.md
+              git commit -m "docs: sync README.md from main"
+              git push origin $branch
+            else
+              echo "No changes for $branch"
+            fi
