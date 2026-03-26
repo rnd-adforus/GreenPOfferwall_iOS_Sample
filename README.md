@@ -6,7 +6,7 @@
   
 ## Installation
 4.1.0 이상 부터 Swift Package Manager이 추가 지원됩니다. 다음과 같이, <br>
-CocoaPods와 Swift Package Mananger 중 1개를 채택하시어 의존성을 추가하여 주세요.<br>
+CocoaPods와 Swift Package Mananger 중 1개를 채택하시어 의존성을 추가하여 주세요. <br>
 
 <b>[CocoaPods]</b><br>
 Podfile을 작성하시어 적용하여 주기실 바랍니다.  
