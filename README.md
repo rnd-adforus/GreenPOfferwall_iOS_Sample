@@ -1,28 +1,15 @@
-## GreenPOfferwall_Extends_iOS
+## GreenPOfferwall_(3v~4v)_iOS
 
-## 3.5.0 이상 Migration 안내
-### # [!3.5.0]이상 부터는 별도의 SDK로 분리되었던 GreenpOfferwall SDK iOS (v3) For Extend가
-### # GreenpOfferwall SDK iOS (v3) 와 함께 Dependency 추가 의존성(UAdKit)으로 옵셔널하게 적용됩니다.!
-
-**[3.5.0v 이상 신규 버전 가이드 이동하기](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample?tab=readme-ov-file#greenpofferwall_3v_ios)**
-
-<details>
-<summary>이전 버전 가이드 보기</summary>
-
-## Version 3.4.0.0
-- Swift version 5.8
+## Version 4.1.0
+- Swift version 6.0
 - Minimum iOS version 14.0
-
-## Greenp Offerwall iOS v3 For Extend 
-Greenp Offerwall iOS v3 For Extend은 그린피 오퍼월 광고와 구글 광고(배너, 전면, 리워드, 네이티브)를 모두 지원 받을 수 있는 통합 SDK 서비스입니다.
-그린피 오퍼월 내에서도 다음과 같이 구글 광고가 지원됩니다. <br>
-
-**_구글 광고 송출을 위한 운영 프로세스를 선 진행해 주시길 바랍니다._**<br>[GreenPOfferwall + Google 통합 MCM 가이드](https://www.notion.so/Greenp-Google-MCM-59a57e636bbc411d90c14918d1bc8de8)<br>
-
-![그린피 오퍼월 통합 내 구글 광고](https://i.imgur.com/hY5rrWh.png)
-[안드로이드 연동 가이드 바로가기](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/Greenp-Offerwall-Android-v3-For-Extend-%EC%97%B0%EB%8F%99%EA%B0%80%EC%9D%B4%EB%93%9C)<br>
+  
 ## Installation
-GreenPOfferwall Extends SDK는 Cocoapods으로 지원됩니다. 다음과 같이, Podfile을 작성하시어 적용하여 주기실 바랍니다.  
+4.1.0 이상 부터 Swift Package Manager이 추가 지원됩니다. 다음과 같이, <br>
+CocoaPods와 Swift Package Mananger 중 1개를 채택하시어 의존성을 추가하여 주세요.. <br>
+
+<b>[CocoaPods]</b><br>
+Podfile을 작성하시어 적용하여 주기실 바랍니다.  
 ```
 //Podfile
 platform :ios, '14.0'
@@ -30,8 +17,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWallExs', '3.4.0.0'
-end
+  pod 'GreenPOfferWall', '4.1.0' #Required
+  pod 'UAdKit', '2.5.0' #Optional (Admob)
+  pod 'UPanKit/Adapters/Admob', '1.5.1' #Optional (Pangle + Admob Adpater Pangle)
+  pod 'CubeXKit', '1.1.0' #Optional (Adforus RTB)end
 
 post_install do |pi|
   pi.pods_project.targets.each do |t|
@@ -41,235 +30,54 @@ post_install do |pi|
   end
 end
 ```
+<br>
+
+OR <br>
+
+<b>[Swift Package Mananger]</b> <br>
+Xcode 네비게이션 메뉴에서 File > Add Package Dependencies 탭으로 이동하고 다음의 경로를 검색하여 의존성을 추가하여 주세요.
 ```
-//terminal
-$ pod update
-$ pod install
+https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm.git
 ```
+
 ## Info.plist
 광고 추적 권한<br>
-광고 추적 권한 허용 여부에 사용 되는 문구 설정 및 오퍼월 광고 지원을 위한 api 통신 설정이 다음과 같이 필요합니다. 다음의 설정이 올바르지 않을 시 오퍼월 리워드 지급이 원활하지 않을 수 있습니다.
-<b>[광고 추적 권한에 따른 문구 설정]</b><br>
-
 <img width="1234" alt="스크린샷 2023-11-21 오후 9 05 22" src="https://i.imgur.com/liFxkik.png">
 <br>http 통신 예외처리<br>
-<img width="803" alt="스크린샷 2023-11-21 오후 9 08 45" src="https://i.imgur.com/l1k18ai.png">
-
-GADApplicationIdentifier키 값에  Application Id를 입력하세요.  (앱별 Application ID를 Adforus 운영팀에 문의해주세요.)
-<img width="1234" alt="AppID" src="https://i.imgur.com/kmNgWv6.png">
-또는
-```xml
-<key>GADApplicationIdentifier</key>  
-<string>Your Application ID</string>  
-```
+<img width="803" alt="스크린샷 2023-11-21 오후 9 08 45" src="https://i.imgur.com/l1k18ai.png">
 <br>
-광고 최적화를 위해 광고 추적 예외 설정에 필요한 값을 추가합니다. 아래 스니펫을 Info.plist에 포함하여 주세요.
-<details><br>
-<summary><b>작성예시</summary>
 
-```xml
-<key>SKAdNetworkItems</key>
-<array>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>cstr6suwn9.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>4fzdc2evr5.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>4pfyvq9l8r.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>2fnua5tdw4.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>ydx93a7ass.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>5a6flpkh64.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>p78axxw29g.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>v72qych5uu.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>ludvb6z3bs.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>cp8zw746q7.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>3sh42y64q3.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>c6k4g5qg8m.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>s39g8k73mm.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>3qy4746246.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>f38h382jlk.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>hs6bdukanm.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-	<string>v4nxqhlyqp.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>wzmmz9fp6w.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>yclnxrl5pm.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>t38b2kh725.skadnetwork</string>
-  </dict>
-  <dict>
-	<key>SKAdNetworkIdentifier</key>
-	<string>7ug5zh24hu.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>gta9lk7p23.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>vutu7akeur.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>y5ghdn5j9k.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>n6fk4nfna4.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>v9wttpbfk9.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>n38lu8286q.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>47vhws6wlr.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>kbd757ywx3.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>9t245vhmpl.skadnetwork</string>
-  </dict>
-  <dict>
-	<key>SKAdNetworkIdentifier</key>
-	<string>eh6m2bh4zr.skadnetwork</string>
-  </dict>
-  <dict>
-	<key>SKAdNetworkIdentifier</key>
-	<string>a2p9lx4jpn.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>22mmun2rn5.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>4468km3ulz.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>2u9pt9hc89.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>8s468mfl3y.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>klf5c3l5u5.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>ppxm28t8ap.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>ecpz2srf59.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>uw77j35x4d.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>pwa73g5rt2.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-	 <string>mlmmfzh3r3.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>578prtvx9j.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>4dzt52r2t5.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>e5fvkxwrpn.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>8c4e2ghe7u.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>zq492l623r.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>3rd42ekr43.skadnetwork</string>
-  </dict>
-  <dict>
-    <key>SKAdNetworkIdentifier</key>
-    <string>3qcr597p9d.skadnetwork</string>
-  </dict>
-</array>
-```
-<br>
+### (Optional)Google Admob GADApllicationIdentifer 작성
+<details>
+<summary>더 보기</summary>
+오퍼월 내에 AdMob 광고를 표시하려면, Info.split에 GADApllicationIdentifer키값을 추가해야 합니다. <br>
+앱 마다 고유한 GADApllicationIdentifer의 값은 애드포러스 플랫폼 3팀에 문의하여주세요. <br>
+
+<img width="1000" alt="app_id" src="https://i.imgur.com/acKz0Uf.png">
+
 </details>
+
+<br>
+
+## BuildSettings
+GreenPOffewall SDK는 Dynamic Framework로 라이브러리 파일이 런타임으로 로딩 되도록 하는 방식을 취하고 있습니다. Dynamic Framework는 SDK를 의존하여 늘어나는 앱 용량을 대폭 축소합니다. 다음의 RUN_PATH, LINK_FRAMEWORK 설정을 추가하여주세요.
+
+### RUN_PATH 
+Dynamic Framework를 로딩할 경로를 설정합니다 . TARGETS > BuildSettings > Linking - General > Runpath Search Paths의 값 확인하여 동일한 path가 없다면 추가해 주세요. 
+<table>
+<th> copy values </th>
+<th>Build Settings Example</th>
+<tr>
+<td>
+<code>/usr/lib/swift</code> <br>
+<code>@executable_path/Frameworks</code><br>
+<code>@loader_path/Frameworks</code>
+</td>
+<td>
+<img alt="run_path" src="https://i.imgur.com/4sncUYS.png">
+</td>
+</tr>
+</table>
 
 ## Initialize
 ```swift
@@ -278,7 +86,7 @@ import GreenpOfferwall
 private lazy var greenP = GreenPSettings(delegate: self)
 
 /// 오퍼월 초기화 및 사용자 등록
-greenP.set(appCode: "Your Code", userID: "user ID") /// 화면에 오퍼월 충전소를 호출하는 함수.
+greenP.set(appCode: "Your App Code", userID: "user ID") /// 화면에 오퍼월 충전소를 호출하는 함수.
 greenp.setAuthMessage(msg: "개인화된 광고 제공을 위해 추적 허용 권한을 요청합니다.") // 광고 추적 거부시 권한 요청 팝업 문구 커스텀 용
 
 /// 버튼을 누를 때 호출
@@ -308,43 +116,75 @@ extension ViewController : GreenPDelegate {
 |rwd_cost  |`int`    |매체사에 지급되는 단가 |
 |app_uid   |`string` |매체사에 보낸 유저 구분 값 (UserID) |
 |gp_key    |`int`    |전환 건에 대한 유니크 값 |
-|etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
+|etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 4.1.0
+- 글로벌 기능 지원 (다국어, 국가별 캠페인 지원)
+- 설치형 광고 지원
 
-### 3.4.0.0
+### 4.0.1
+- 마이페이지 내 표시 오류 수정
+- 그린피 이벤트 버그 픽스
+
+### 4.0.0
+- 4v 전용 커스텀 디자인 적용
+- 그린피 이벤트 기능 지원
+
+### 3.5.3
+- Flutter.framework Privacy Manifest 적용 버전으로 업데이트 
+
+### 3.5.2
+- 오퍼월 팝업 관련 버그 픽스
+
+### 3.5.1
+- 리워드 포인트 색상 그린피 어드민에서 설정하는 기능 추가
+- GADApllicationIdentifer 확인 기능 내부 컨트롤 기능 추가
+
+### 3.5.0 
+- Swift6 지원
+- 멀티 리워드 광고 타입 지원
+- 다크모드 지원, 버튼 UI, 광고 리스트 표시 형식 등 디자인 변경 
+- 초기화 실패 사유로 App Code, User ID를 빈값을 사용 하는 경우를 추가
+- 메뉴 버튼 이름이 그린피 Admin 페이지 설정으로 변경, 통합 되는 기능 추가
+- 오퍼월 내 구글 광고가 UAdKit SDK 의존성을 추가하여 적용될 수 있도록 변경
+- Alamofire, SnapKit, Kingfisher 라이브러리 의존성 제거
+
+### 3.4.0 
 - 개인정보동의 팝업 관련 UI가 그린피 어드민에서 컨트롤되도록 설정 지원
 - iOS 플랫폼 형식에 맞지 않는 AppCode로 초기화 시도 시 실패 되도록 수정
 - 기타 데이터 수집과 관련한 버그 픽스
 - UI 표시 여부와 관련된 버그 픽스
 
-### 3.3.0.0
+### 3.3.0
 - 광고 표시 유형 리스트/피드형 버튼, 문의하기 버튼 그린피 어드민에서 ON/OFF 되도록 지원
-- 광고 초기화 델리게이트 GreenPDelegate의 콜백 함수 greenPSettingsDidEnd에 초기화 성공 여부에 대한 파라미터를 지원
 - 개인정보동의 팝업이 그린피 오퍼월 UI 팝업 이후 표시 되도록 수정
 - ATT 동의 여부에 상관없이 그린피 오퍼월 UI가 팝업 되도록 수정. (단, 미 동의 시 광고 목록에 제한이 있음)
 - 그린피 오퍼월 아이콘 ON/OFF 기능과 관련된 버그 픽스
 
-### 3.2.1.0
+### 3.2.1
 - 그린피 어드민에 버전 정보 표시 기능 적용
 
-### 3.2.0.0
+### 3.2.0
 - 광고 검색 기능 그린피 어드민으로 ON/OFF 되도록 수정
 - 클릭 체류형 광고타입 적용
 - 대메뉴, 소메뉴, 프로필 입력 UI 그린피 어드민으로 ON/OFF 되도록 수정
 - 광고 표시 유형 리스트/피드형 초기 설정이 그린피 어드민 설정을 따르도록 수정
 - 마이페이지의 참여 광고 목록 정렬 순서 수정
-- 화면 전환 버그 픽스
+- 대매뉴 화면 전환 버그 픽스
 
-### 3.1.2.0
-- Distribute Error - Invalid Binary Fix
+### 3.1.1
+- 메뉴 버튼 UI 수정 및 버그 픽스
 
-### 3.1.1.1
-- Privacy Manifest - required reason API 수정
+### 3.1.0
+- 광고 UI 표시 피드형, 리스트형 전환 기능 추가
+- Privacy Manifest - required reason API 적용
+- 광고 리스트 검색기능 적용
+- 프로필 작성 기능 추가
+- 보상 표시 단위 소숫점 이하 적용 기능 추가
+- 광고 추적 거부 시 권한 요청 팝업 문구 수정용 인터페이스 추가
+- 광고 리스트 페이징 버그 및 UI 픽스
 
 ## support for other platforms
-1. [Flutter](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample/wiki/Flutter-GreenpOfferwall-forExtends-SDK-for-%08iOS)
-2. [ReactNative](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/ReactNative-GreenpOfferwall-forExtends-SDK-%EA%B0%80%EC%9D%B4%EB%93%9C)
-
-
-</details>
+1. [Flutter](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample/wiki/Flutter-GreenpOfferwall-SDK-for-%08iOS)
+2. [ReactNative](https://github.com/rnd-adforus/GreenpSDK_Android/wiki/ReactNative-GreenpOfferwall-SDK-%EA%B0%80%EC%9D%B4%EB%93%9C)
