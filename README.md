@@ -1,6 +1,6 @@
 ## GreenPOfferwall_(3v~4v)_iOS
 
-## Version 4.1.0
+## Version 4.2.0
 - Swift version 6.0
 - Minimum iOS version 14.0
   
@@ -17,8 +17,8 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.1.0' #Required
-  pod 'UAdKit', '2.5.0' #Optional (Admob)
+  pod 'GreenPOfferWall', '4.2.0' #Required
+  pod 'UAdKit', '2.5.1' #Optional (Admob)
   pod 'UPanKit/Adapters/Admob', '1.5.1' #Optional (Pangle + Admob Adpater Pangle)
   pod 'CubeXKit', '1.1.0' #Optional (Adforus RTB)end
 
@@ -119,6 +119,11 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 4.2.0
+- 컬쳐랜드 로그인 기능 추가 
+    : 기본 설정은 OFF이며, 활성화는 Adforus Platform 2팀에 문의하여 주세요.
+- 멀티 캠페인 포인트 텍스트 다국어 지원
+
 ### 4.1.0
 - 글로벌 기능 지원 (다국어, 국가별 캠페인 지원)
 - 설치형 광고 지원
