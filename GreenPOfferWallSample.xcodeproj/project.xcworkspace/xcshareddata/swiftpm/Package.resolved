@@ -1,5 +1,5 @@
 {
-  "originHash" : "3a3d5185e8b555219490a77168f630dbbc9cd3f8194dd8832a8eb0cd25fb8f4f",
+  "originHash" : "08c00237b45974f1beb47bc3b0858f403e60b180cb68d27b5d1ffe101fed5885",
   "pins" : [
     {
       "identity" : "adsglobalpackage",
@@ -60,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm",
       "state" : {
-        "revision" : "c97b0e72177094c0489211ff3c9e156678016c96",
-        "version" : "4.1.0"
+        "revision" : "079513f79c35a9909096bd53e6991b5c5ef353d7",
+        "version" : "4.2.0"
       }
     },
     {

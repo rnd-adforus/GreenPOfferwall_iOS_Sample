@@ -880,7 +880,7 @@
 			repositoryURL = "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
+				minimumVersion = 4.2.0;
 			};
 		};
 		5930AC712F74C99200424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
