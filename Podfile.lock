@@ -1,20 +1,20 @@
 PODS:
-  - Ads-Global (7.9.0.6):
-    - Ads-Global/BUAdSDK (= 7.9.0.6)
-  - Ads-Global/BUAdSDK (7.9.0.6):
+  - Ads-Global (7.9.0.8):
+    - Ads-Global/BUAdSDK (= 7.9.0.8)
+  - Ads-Global/BUAdSDK (7.9.0.8):
     - Ads-Global/PangleSDK
     - Ads-Global/TikTokBusinessSDK
-  - Ads-Global/PangleSDK (7.9.0.6)
-  - Ads-Global/TikTokBusinessSDK (7.9.0.6)
+  - Ads-Global/PangleSDK (7.9.0.8)
+  - Ads-Global/TikTokBusinessSDK (7.9.0.8)
   - CubeXKit (1.1.0)
   - Google-Mobile-Ads-SDK (13.0.0):
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleMobileAdsMediationPangle (7.9.0.6.0):
-    - Ads-Global (= 7.9.0.6)
+  - GoogleMobileAdsMediationPangle (7.9.0.8.0):
+    - Ads-Global (= 7.9.0.8)
     - Google-Mobile-Ads-SDK (~> 13.0)
   - GoogleUserMessagingPlatform (3.1.0)
-  - GreenPOfferWall (4.1.0)
-  - UAdKit (2.5.0):
+  - GreenPOfferWall (4.2.0)
+  - UAdKit (2.5.1):
     - Google-Mobile-Ads-SDK (< 13.0.1, >= 12.4.0)
   - UPanKit/Adapters/Admob (1.5.1):
     - GoogleMobileAdsMediationPangle (< 7.9.0.9.0, >= 7.8.5.6.0)
@@ -24,8 +24,8 @@ PODS:
 
 DEPENDENCIES:
   - CubeXKit (= 1.1.0)
-  - GreenPOfferWall (= 4.1.0)
-  - UAdKit (= 2.5.0)
+  - GreenPOfferWall (= 4.2.0)
+  - UAdKit (= 2.5.1)
   - UPanKit/Adapters/Admob (= 1.5.1)
 
 SPEC REPOS:
@@ -40,15 +40,15 @@ SPEC REPOS:
     - UPanKit
 
 SPEC CHECKSUMS:
-  Ads-Global: fb1fa75ebbf100ab9ff216d81b71a05cf1a73675
+  Ads-Global: b21f686881cc572879a107860aaab40c811e60a0
   CubeXKit: 5352e4fde101749499c35759c5836298d649cc66
   Google-Mobile-Ads-SDK: 96498d53355e438e2d932277e5e8e41a824fe4d4
-  GoogleMobileAdsMediationPangle: a1b9bf5cbda029ee17fc7e41d06a887d2555f8c2
+  GoogleMobileAdsMediationPangle: 8b526049bd6044732c40f3f3989f8daadfd80a32
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  GreenPOfferWall: 81ac0d202c95b74c43b5fe794fff8f5d1b968c46
-  UAdKit: 0b064eb0c36e912fa6ac822a30033af86cc758f0
+  GreenPOfferWall: a6e28c0f86fb458f43abe0b74b8abe395d877e51
+  UAdKit: 208baca74d780ec2c232697eaa87276a993e4e98
   UPanKit: c2d250f63a7d775ffe9fcfe6ca7fdd23e9fb1fbd
 
-PODFILE CHECKSUM: 9fc29aec50ebb3af5c3afeb6f276def6559dd9a7
+PODFILE CHECKSUM: 4df185b187400a6caa1aa302edbd97cdf5f5f5c8
 
 COCOAPODS: 1.16.2
