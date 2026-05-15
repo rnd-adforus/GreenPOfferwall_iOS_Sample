@@ -13,24 +13,21 @@
 		59091C3D2F74CC32007685E7 /* Admob-Mediation-Pangle in Frameworks */ = {isa = PBXBuildFile; productRef = 59091C3C2F74CC32007685E7 /* Admob-Mediation-Pangle */; };
 		59091C3F2F74CC32007685E7 /* UPanKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091C3E2F74CC32007685E7 /* UPanKit */; };
 		59091C422F74D13B007685E7 /* CuBidKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59091C412F74D13B007685E7 /* CuBidKit */; };
-		5930AC612F74C7E100424C60 /* GreenPOfferWall in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC602F74C7E100424C60 /* GreenPOfferWall */; };
 		5930AC642F74C82C00424C60 /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC632F74C82C00424C60 /* UAdKit */; };
 		5930AC672F74C84000424C60 /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC662F74C84000424C60 /* CubeXKit */; };
 		5930AC6A2F74C94100424C60 /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC692F74C94100424C60 /* CubeXKit */; };
 		5930AC6D2F74C95600424C60 /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC6C2F74C95600424C60 /* UAdKit */; };
-		5930AC702F74C98700424C60 /* GreenPOfferWall in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC6F2F74C98700424C60 /* GreenPOfferWall */; };
 		5930AC732F74C99200424C60 /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC722F74C99200424C60 /* UAdKit */; };
 		5930AC762F74C99E00424C60 /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5930AC752F74C99E00424C60 /* CubeXKit */; };
-		59396E492F7401A000816B9C /* GreenPOfferWall in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E482F7401A000816B9C /* GreenPOfferWall */; };
 		59396E572F74071300816B9C /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E562F74071300816B9C /* CubeXKit */; };
 		59396E5B2F74087D00816B9C /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E5A2F74087D00816B9C /* CubeXKit */; };
 		59396E5E2F74092500816B9C /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E5D2F74092500816B9C /* CubeXKit */; };
 		59396E612F74B7EA00816B9C /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E602F74B7EA00816B9C /* CubeXKit */; };
 		59396E662F74B90000816B9C /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E652F74B90000816B9C /* CubeXKit */; };
-		59396E6E2F74BDF900816B9C /* GreenPOfferWall in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E6D2F74BDF900816B9C /* GreenPOfferWall */; };
 		59396E712F74BE2800816B9C /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E702F74BE2800816B9C /* UAdKit */; };
 		59396E752F74C3A400816B9C /* UAdKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E742F74C3A400816B9C /* UAdKit */; };
 		59396E782F74C48C00816B9C /* CubeXKit in Frameworks */ = {isa = PBXBuildFile; productRef = 59396E772F74C48C00816B9C /* CubeXKit */; };
+		593FB5A02FB6DBBC00272EF0 /* GreenPOfferWall in Frameworks */ = {isa = PBXBuildFile; productRef = 593FB59F2FB6DBBC00272EF0 /* GreenPOfferWall */; };
 		5948584E2BDB5D6700DFE317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948584D2BDB5D6700DFE317 /* AppDelegate.swift */; };
 		594858502BDB5D6700DFE317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5948584F2BDB5D6700DFE317 /* SceneDelegate.swift */; };
 		594858522BDB5D6700DFE317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594858512BDB5D6700DFE317 /* ViewController.swift */; };
@@ -100,8 +97,6 @@
 			files = (
 				59396E712F74BE2800816B9C /* UAdKit in Frameworks */,
 				5930AC762F74C99E00424C60 /* CubeXKit in Frameworks */,
-				59396E492F7401A000816B9C /* GreenPOfferWall in Frameworks */,
-				5930AC702F74C98700424C60 /* GreenPOfferWall in Frameworks */,
 				59091C3D2F74CC32007685E7 /* Admob-Mediation-Pangle in Frameworks */,
 				59091C382F74CB8E007685E7 /* Admob-Mediation-Pangle in Frameworks */,
 				59396E662F74B90000816B9C /* CubeXKit in Frameworks */,
@@ -117,11 +112,10 @@
 				59396E612F74B7EA00816B9C /* CubeXKit in Frameworks */,
 				59091C352F74CA4A007685E7 /* UAdKit in Frameworks */,
 				5930AC6D2F74C95600424C60 /* UAdKit in Frameworks */,
-				59396E6E2F74BDF900816B9C /* GreenPOfferWall in Frameworks */,
 				5930AC672F74C84000424C60 /* CubeXKit in Frameworks */,
 				59091C3A2F74CB8E007685E7 /* UPanKit in Frameworks */,
-				5930AC612F74C7E100424C60 /* GreenPOfferWall in Frameworks */,
 				59396E782F74C48C00816B9C /* CubeXKit in Frameworks */,
+				593FB5A02FB6DBBC00272EF0 /* GreenPOfferWall in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,11 +294,11 @@
 			);
 			mainGroup = 594858412BDB5D6700DFE317;
 			packageReferences = (
-				5930AC6E2F74C98700424C60 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */,
 				5930AC742F74C99E00424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */,
 				59091C332F74CA4A007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */,
 				59091C3B2F74CC32007685E7 /* XCRemoteSwiftPackageReference "cubid-mediation-pangle-ios-sdk-spm" */,
 				59091C402F74D13B007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */,
+				593FB59E2FB6DBBC00272EF0 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */,
 			);
 			productRefGroup = 5948584B2BDB5D6700DFE317 /* Products */;
 			projectDirPath = "";
@@ -397,9 +391,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -414,9 +412,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests/Pods-GreenpOfferwallSample-GreenpOfferwallSampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -835,14 +837,6 @@
 				minimumVersion = 1.2.1;
 			};
 		};
-		5930AC5F2F74C7E100424C60 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
-			};
-		};
 		5930AC622F74C82C00424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm";
@@ -875,14 +869,6 @@
 				minimumVersion = 2.5.0;
 			};
 		};
-		5930AC6E2F74C98700424C60 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.2.0;
-			};
-		};
 		5930AC712F74C99200424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm";
@@ -897,14 +883,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.1.2;
-			};
-		};
-		59396E472F7401A000816B9C /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
 			};
 		};
 		59396E592F74087D00816B9C /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */ = {
@@ -939,14 +917,6 @@
 				minimumVersion = 1.1.1;
 			};
 		};
-		59396E6C2F74BDF900816B9C /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
-			};
-		};
 		59396E732F74C3A400816B9C /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm";
@@ -961,6 +931,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.1.1;
+			};
+		};
+		593FB59E2FB6DBBC00272EF0 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -994,11 +972,6 @@
 			package = 59091C402F74D13B007685E7 /* XCRemoteSwiftPackageReference "cubid-ios-sdk-spm" */;
 			productName = CuBidKit;
 		};
-		5930AC602F74C7E100424C60 /* GreenPOfferWall */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5930AC5F2F74C7E100424C60 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */;
-			productName = GreenPOfferWall;
-		};
 		5930AC632F74C82C00424C60 /* UAdKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5930AC622F74C82C00424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */;
@@ -1019,11 +992,6 @@
 			package = 5930AC6B2F74C95600424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */;
 			productName = UAdKit;
 		};
-		5930AC6F2F74C98700424C60 /* GreenPOfferWall */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5930AC6E2F74C98700424C60 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */;
-			productName = GreenPOfferWall;
-		};
 		5930AC722F74C99200424C60 /* UAdKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5930AC712F74C99200424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-admob-ios-sdk-spm" */;
@@ -1033,11 +1001,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5930AC742F74C99E00424C60 /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */;
 			productName = CubeXKit;
-		};
-		59396E482F7401A000816B9C /* GreenPOfferWall */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59396E472F7401A000816B9C /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */;
-			productName = GreenPOfferWall;
 		};
 		59396E562F74071300816B9C /* CubeXKit */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1063,11 +1026,6 @@
 			package = 59396E642F74B90000816B9C /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */;
 			productName = CubeXKit;
 		};
-		59396E6D2F74BDF900816B9C /* GreenPOfferWall */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 59396E6C2F74BDF900816B9C /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */;
-			productName = GreenPOfferWall;
-		};
 		59396E702F74BE2800816B9C /* UAdKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UAdKit;
@@ -1081,6 +1039,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 59396E762F74C48C00816B9C /* XCRemoteSwiftPackageReference "cubid-mediation-cubex-ios-sdk-spm" */;
 			productName = CubeXKit;
+		};
+		593FB59F2FB6DBBC00272EF0 /* GreenPOfferWall */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 593FB59E2FB6DBBC00272EF0 /* XCRemoteSwiftPackageReference "greenpofferwall-ios-sdk-spm" */;
+			productName = GreenPOfferWall;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

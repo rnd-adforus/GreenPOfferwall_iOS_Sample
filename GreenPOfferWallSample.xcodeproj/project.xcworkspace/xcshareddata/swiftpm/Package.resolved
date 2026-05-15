@@ -60,8 +60,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm",
       "state" : {
-        "revision" : "079513f79c35a9909096bd53e6991b5c5ef353d7",
-        "version" : "4.2.0"
+        "revision" : "197b1dfd7600a6b88194329fe19d93e948a9c152",
+        "version" : "4.2.1"
       }
     },
     {
