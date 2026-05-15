@@ -1,9 +1,9 @@
 platform :ios, '14.0'
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 
 target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.2.0' #Required
+  pod 'GreenPOfferWall_private', '4.2.2' #Required
   pod 'UAdKit', '2.5.1' #Optional (Admob)
   
   pod 'UPanKit/Adapters/Admob', '1.5.1' #Optional (Pangle + Admob Adpater Pangle)
