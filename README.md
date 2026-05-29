@@ -1,5 +1,5 @@
 ## GreenPOfferwall_(3v~4v)_iOS
-## Version 4.2.1
+## Version 4.2.2
 - Swift version 6.0
 - Minimum iOS version 14.0
   
@@ -16,7 +16,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.2.1' #Required
+  pod 'GreenPOfferWall', '4.2.2' #Required
   pod 'UAdKit', '2.5.1' #Optional (Admob)
   pod 'UPanKit/Adapters/Admob', '1.5.1' #Optional (Pangle + Admob Adpater Pangle)
   pod 'CubeXKit', '1.1.0' #Optional (Adforus RTB)end
@@ -118,6 +118,11 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 4.2.2
+- 유효하지 않은 AppCode 입력 후 초기화시 런타임에러 수정
+- 테마배경색에 따른 텍스트 색상 보정
+- 이미지 랜더링 성능 개선
+
 ### 4.2.1
 - 다국어 지원 외 국가 언어의 경우 영어를 기본 값으로 세팅되도록 수정
 - 네트워크 상태에 따라 캠페인 리스트 표시 지연시 안내 문구 표시 및 뒤로가기 허용
