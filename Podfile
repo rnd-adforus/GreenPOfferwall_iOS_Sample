@@ -4,7 +4,7 @@ source '/Users/adforus_m1/.cocoapods/repos/local-specs-2'
 
 target 'GreenpOfferwallSample' do
   use_frameworks!
-  pod 'GreenPOfferWall_private', '4.2.1' #Required
+  pod 'GreenPOfferWall_private', '4.2.2' #Required
   pod 'UAdKit', '2.5.1' #Optional (Admob)
   
   pod 'UPanKit/Adapters/Admob', '1.5.1' #Optional (Pangle + Admob Adpater Pangle)

@@ -13,7 +13,7 @@ PODS:
     - Ads-Global (= 7.9.0.8)
     - Google-Mobile-Ads-SDK (~> 13.0)
   - GoogleUserMessagingPlatform (3.1.0)
-  - GreenPOfferWall_private (4.2.1)
+  - GreenPOfferWall_private (4.2.2)
   - UAdKit (2.5.1):
     - Google-Mobile-Ads-SDK (< 13.0.1, >= 12.4.0)
   - UPanKit/Adapters/Admob (1.5.1):
@@ -24,7 +24,7 @@ PODS:
 
 DEPENDENCIES:
   - CubeXKit (= 1.1.0)
-  - GreenPOfferWall_private (= 4.2.1)
+  - GreenPOfferWall_private (= 4.2.2)
   - UAdKit (= 2.5.1)
   - UPanKit/Adapters/Admob (= 1.5.1)
 
@@ -46,10 +46,10 @@ SPEC CHECKSUMS:
   Google-Mobile-Ads-SDK: 96498d53355e438e2d932277e5e8e41a824fe4d4
   GoogleMobileAdsMediationPangle: 8b526049bd6044732c40f3f3989f8daadfd80a32
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  GreenPOfferWall_private: 8e6a7f76822d599c1715c51b5a4633bc9202b7b0
+  GreenPOfferWall_private: 0e92d933eb021dc84e92b4da471b7e6247ab626e
   UAdKit: 208baca74d780ec2c232697eaa87276a993e4e98
   UPanKit: c2d250f63a7d775ffe9fcfe6ca7fdd23e9fb1fbd
 
-PODFILE CHECKSUM: 8ecbdfbe9bbba4d0e167a84f0380c0770093a19d
+PODFILE CHECKSUM: 16ffab1855003da4157fc9a66844da28d92362f4
 
 COCOAPODS: 1.16.2
