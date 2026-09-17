@@ -1,5 +1,5 @@
 ## GreenPOfferwall_(3v~4v)_iOS
-## Version 4.2.2
+## Version 4.3.2
 - Swift version 6.0
 - Minimum iOS version 14.0
   
@@ -16,10 +16,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.2.2' #Required
-  pod 'UAdKit', '2.5.1' #Optional (Admob)
-  pod 'UPanKit/Adapters/Admob', '1.5.1' #Optional (Pangle + Admob Adpater Pangle)
-  pod 'CubeXKit', '1.1.0' #Optional (Adforus RTB)end
+  pod 'GreenPOfferWall', '4.3.2' #Required
+  pod 'UAdKit', '2.6.3' #Optional (Admob)
+  pod 'UPanKit/Adapters/Admob', '1.6.2' #Optional (Pangle + Admob Adpater Pangle)
+  pod 'CubeXKit', '1.2.2' #Optional (Adforus RTB)end
 
 post_install do |pi|
   pi.pods_project.targets.each do |t|
