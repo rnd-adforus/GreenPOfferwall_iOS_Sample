@@ -1,55 +1,54 @@
 PODS:
-  - Ads-Global (7.9.0.8):
-    - Ads-Global/BUAdSDK (= 7.9.0.8)
-  - Ads-Global/BUAdSDK (7.9.0.8):
+  - Ads-Global (8.1.1.1):
+    - Ads-Global/BUAdSDK (= 8.1.1.1)
+  - Ads-Global/BUAdSDK (8.1.1.1):
     - Ads-Global/PangleSDK
     - Ads-Global/TikTokBusinessSDK
-  - Ads-Global/PangleSDK (7.9.0.8)
-  - Ads-Global/TikTokBusinessSDK (7.9.0.8)
-  - CubeXKit (1.1.0)
-  - Google-Mobile-Ads-SDK (13.0.0):
+  - Ads-Global/PangleSDK (8.1.1.1)
+  - Ads-Global/TikTokBusinessSDK (8.1.1.1)
+  - CubeXKit (1.2.2)
+  - Google-Mobile-Ads-SDK (13.5.0):
     - GoogleUserMessagingPlatform (>= 1.1)
-  - GoogleMobileAdsMediationPangle (7.9.0.8.0):
-    - Ads-Global (= 7.9.0.8)
-    - Google-Mobile-Ads-SDK (~> 13.0)
+  - GoogleMobileAdsMediationPangle (8.1.1.1.0):
+    - Ads-Global (= 8.1.1.1)
+    - Google-Mobile-Ads-SDK (~> 13.3)
   - GoogleUserMessagingPlatform (3.1.0)
-  - GreenPOfferWall_private (4.2.2)
-  - UAdKit (2.5.1):
-    - Google-Mobile-Ads-SDK (< 13.0.1, >= 12.4.0)
-  - UPanKit/Adapters/Admob (1.5.1):
-    - GoogleMobileAdsMediationPangle (< 7.9.0.9.0, >= 7.8.5.6.0)
+  - GreenPOfferWall (4.3.2)
+  - UAdKit (2.6.3):
+    - Google-Mobile-Ads-SDK (< 13.5.4, >= 12.4.0)
+  - UPanKit/Adapters/Admob (1.6.2):
+    - GoogleMobileAdsMediationPangle (< 8.1.1.1.1, >= 7.9.0.8.0)
     - UPanKit/Core
-  - UPanKit/Core (1.5.1):
-    - Ads-Global (< 7.9.0.9, >= 7.8.5.6)
+  - UPanKit/Core (1.6.2):
+    - Ads-Global (< 8.1.1.2, >= 7.9.0.8)
 
 DEPENDENCIES:
-  - CubeXKit (= 1.1.0)
-  - GreenPOfferWall_private (= 4.2.2)
-  - UAdKit (= 2.5.1)
-  - UPanKit/Adapters/Admob (= 1.5.1)
+  - CubeXKit (= 1.2.2)
+  - GreenPOfferWall (= 4.3.2)
+  - UAdKit (= 2.6.3)
+  - UPanKit/Adapters/Admob (= 1.6.2)
 
 SPEC REPOS:
-  "/Users/adforus_m1/.cocoapods/repos/local-specs-2":
-    - GreenPOfferWall_private
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Ads-Global
     - CubeXKit
     - Google-Mobile-Ads-SDK
     - GoogleMobileAdsMediationPangle
     - GoogleUserMessagingPlatform
+    - GreenPOfferWall
     - UAdKit
     - UPanKit
 
 SPEC CHECKSUMS:
-  Ads-Global: b21f686881cc572879a107860aaab40c811e60a0
-  CubeXKit: 5352e4fde101749499c35759c5836298d649cc66
-  Google-Mobile-Ads-SDK: 96498d53355e438e2d932277e5e8e41a824fe4d4
-  GoogleMobileAdsMediationPangle: 8b526049bd6044732c40f3f3989f8daadfd80a32
+  Ads-Global: f3a8c8b16fcae04034db897b09f01948dd0178e4
+  CubeXKit: ffc0f4de87e519021b3ca59b5e5b04a9cb40eeef
+  Google-Mobile-Ads-SDK: 2171620c6497804b57dc88b95644cc82e7dfb5b0
+  GoogleMobileAdsMediationPangle: 948ca72e4159d5b7026bba40a3249b35f6a73dc2
   GoogleUserMessagingPlatform: befe603da6501006420c206222acd449bba45a9c
-  GreenPOfferWall_private: 0e92d933eb021dc84e92b4da471b7e6247ab626e
-  UAdKit: 208baca74d780ec2c232697eaa87276a993e4e98
-  UPanKit: c2d250f63a7d775ffe9fcfe6ca7fdd23e9fb1fbd
+  GreenPOfferWall: 8228b8662f4fa11b0da4bbe7b05681b4ca4dee2b
+  UAdKit: b952b426cd02860600ee0555ce8526b7928b29a1
+  UPanKit: e7b21f81cc53f9d5fc1b0fea2e6a19ce75477892
 
-PODFILE CHECKSUM: 16ffab1855003da4157fc9a66844da28d92362f4
+PODFILE CHECKSUM: 44c589b38167270a827531744069ee44681d8430
 
 COCOAPODS: 1.16.2
