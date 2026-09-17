@@ -1,13 +1,13 @@
 {
-  "originHash" : "08c00237b45974f1beb47bc3b0858f403e60b180cb68d27b5d1ffe101fed5885",
+  "originHash" : "89206fff077b37a863d5d87b66a98b728880b324796418ae98ede13101c6dc75",
   "pins" : [
     {
       "identity" : "adsglobalpackage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
       "state" : {
-        "revision" : "e1361a81dc161ac7f3adc49f5e97bbe94f172a79",
-        "version" : "7.9.0-release.6"
+        "revision" : "0d62519f394ab6322dc56aa93609188e8887d076",
+        "version" : "7.9.1-release.1"
       }
     },
     {
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/cubid-ios-sdk-spm.git",
       "state" : {
-        "revision" : "f6d3c590451c13c1b3950b0c866b0f30213f932a",
-        "version" : "1.2.1"
+        "revision" : "6a2d3bdfe57bf008a73181ec0e1e83368757194f",
+        "version" : "1.3.4"
       }
     },
     {
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/cubid-mediation-admob-ios-sdk-spm",
       "state" : {
-        "revision" : "f72e777107bb8fa55cdef651574f712ca9187976",
-        "version" : "2.5.1"
+        "revision" : "457d9396ff6199c708700f84f951ff8073853009",
+        "version" : "2.6.3"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/cubid-mediation-cubex-ios-sdk-spm",
       "state" : {
-        "revision" : "c5b70b2a7e2fbc783d45ce032eb6fa7473220a51",
-        "version" : "1.1.2"
+        "revision" : "9301ce60e0f44e6c89a4bce0439644c675c46354",
+        "version" : "1.2.3"
       }
     },
     {
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rnd-adforus/cubid-mediation-pangle-ios-sdk-spm",
       "state" : {
-        "revision" : "b290a6e0270006c6e31ebc4fb4ec75765e6fb1bd",
-        "version" : "1.5.1"
+        "revision" : "f1710574da7b4931a6a476f441a1e4c0a0c99296",
+        "version" : "1.6.2"
       }
     },
     {
@@ -51,17 +51,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/googleads/googleads-mobile-ios-mediation-pangle.git",
       "state" : {
-        "revision" : "5b5940e56eed49a3c7223359dcdb509aaa26e322",
-        "version" : "7.9.600"
+        "revision" : "e571a4a3b75bd721d4e5c43fddc81d6f44431331",
+        "version" : "7.9.10100"
       }
     },
     {
       "identity" : "greenpofferwall-ios-sdk-spm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm",
+      "location" : "https://github.com/rnd-adforus/greenpofferwall-ios-sdk-spm.git",
       "state" : {
-        "revision" : "197b1dfd7600a6b88194329fe19d93e948a9c152",
-        "version" : "4.2.1"
+        "revision" : "718de9ca43a210903aa1723b5fbf7cf798df3860",
+        "version" : "4.3.2"
       }
     },
     {
