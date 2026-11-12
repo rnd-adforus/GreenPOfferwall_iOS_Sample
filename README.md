@@ -1,38 +1,10 @@
 ## GreenPOfferwall_(3v~4v)_iOS
-## Version 4.3.2
+## Version 4.3.3
 - Swift version 6.0
 - Minimum iOS version 14.0
   
 ## Installation
-4.1.0 이상 부터 Swift Package Manager이 추가 지원됩니다. 다음과 같이, <br>
-CocoaPods와 Swift Package Mananger 중 1개를 채택하시어 의존성을 추가하여 주세요.<br>
-
-<b>[CocoaPods]</b><br>
-Podfile을 작성하시어 적용하여 주기실 바랍니다.  
-```
-//Podfile
-platform :ios, '14.0'
-source 'https://github.com/CocoaPods/Specs.git'
-
-target 'Runner' do
-  use_frameworks!
-  pod 'GreenPOfferWall', '4.3.3' #Required
-  pod 'UAdKit', '2.6.3' #Optional (Admob)
-  pod 'UPanKit/Adapters/Admob', '1.6.2' #Optional (Pangle + Admob Adpater Pangle)
-  pod 'CubeXKit', '1.2.2' #Optional (Adforus RTB)end
-
-post_install do |pi|
-  pi.pods_project.targets.each do |t|
-    t.build_configurations.each do |config|
-      config.build_settings[‘BUILD_LIBRARY_FOR_DISTRIBUTION’] = ‘YES’
-    end
-  end
-end
-```
-<br>
-
-OR <br>
-
+4.1.0 이상 부터 Swift Package Manager이 지원됩니다. <br>
 <b>[Swift Package Mananger]</b> <br>
 Xcode 네비게이션 메뉴에서 File > Add Package Dependencies 탭으로 이동하고 다음의 경로를 검색하여 의존성을 추가하여 주세요.
 ```
