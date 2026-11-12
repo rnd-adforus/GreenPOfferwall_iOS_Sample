@@ -16,7 +16,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Runner' do
   use_frameworks!
-  pod 'GreenPOfferWall', '4.3.2' #Required
+  pod 'GreenPOfferWall', '4.3.3' #Required
   pod 'UAdKit', '2.6.3' #Optional (Admob)
   pod 'UPanKit/Adapters/Admob', '1.6.2' #Optional (Pangle + Admob Adpater Pangle)
   pod 'CubeXKit', '1.2.2' #Optional (Adforus RTB)end
@@ -118,6 +118,13 @@ extension ViewController : GreenPDelegate {
 |etc       |`int`    |referrer 값. 매체용 추가 정보(매체 uniq 클릭값 등) etc 대신 원하는 파라미터로 변경가능 |
 
 ## Changes
+### 4.3.3
+- 이미지 로딩 간섭 방지 로직 추가, 사용자 입력 state 개선
+
+### 4.3.2
+- 다국어 지원 국가 추가 : 인도네시아, 멕시코(스페인어), 브라질 (포르투갈어)
+- 시스템 UI 변경사항 대응
+
 ### 4.2.2
 - 유효하지 않은 AppCode 입력 후 초기화시 런타임에러 수정
 - 테마배경색에 따른 텍스트 색상 보정
