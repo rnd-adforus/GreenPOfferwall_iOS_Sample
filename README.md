@@ -1,4 +1,8 @@
 ## GreenPOfferwall_(3v~4v)_iOS
+> 주의!
+> CocoaPods Trunk가 2026년 12월 2일부터 읽기 전용으로 전환됨에 따라, GreenPOfferwall iOS SDK는 4.3.3부터 CocoaPods 배포를 중단하고 SPM으로만 제공합니다(기존 설치 버전은 계속 사용 가능).
+> [SPM 가이드 바로가기](https://github.com/rnd-adforus/GreenPOfferwall_iOS_Sample/tree/SPM#greenpofferwall_3v4v_ios)
+
 ## Version 4.3.2
 - Swift version 6.0
 - Minimum iOS version 14.0
